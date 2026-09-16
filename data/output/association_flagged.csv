@@ -1,0 +1,961 @@
+_unit_id,name,gender,gender:confidence,label_conflict,tweet_count,fav_number,rules_contradicting,best_confidence,strongest_rule
+815729092,WeRWorld,brand,1.0,0,9426,2588,14,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815728023,lowkeylwt_,brand,0.3595,0,61702,9210,39,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815736293,TheFuture2Hope4,brand,1.0,0,9,0,4,0.925,text_has_emoji & text_n_urls_low & uploaded_image -> human
+815727926,facepaulmrevere,brand,1.0,0,195148,248255,21,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815720278,GermanWizard11,brand,0.6789,1,26611,18437,17,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815736693,hv_younglife,brand,1.0,0,15,6,10,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815722517,ghostofjohanna,brand,0.3574,0,55254,54588,21,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815724761,sthrob77,brand,0.6727,0,14872,4302,16,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815733013,kaneki_txt,brand,0.669,0,435,430,11,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815737244,Petersson84,brand,1.0,0,3294,408,10,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815737271,breakingadriel,brand,0.3417,0,321,76,11,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815737303,TheOnlyAhmed,brand,0.6751,0,3787,2617,16,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815732751,ChanceOneShot,brand,0.66,0,13549,7188,29,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815730455,Ragin_Wookie,brand,0.6409,0,2,0,10,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815730710,MaddieandTaeFly,brand,0.6921,0,518,510,10,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815737698,Hessahalkhawari,brand,0.3389,0,71688,16632,32,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815719906,TwistandSports,brand,1.0,0,1084,327,22,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815722976,WelcomDog,brand,1.0,0,13521,2407,10,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815737867,bones_six7,brand,0.6598,0,33810,218,11,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815736247,DevanPalmer,brand,0.6626,0,917,5,10,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815720404,SimcoeRedcoats,brand,1.0,0,584,203,10,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815730820,destiny_weaver,brand,0.3456,0,6179,3915,26,0.925,text_has_emoji & text_n_urls_low & uploaded_image -> human
+815733171,DjSix7Even,brand,1.0,0,19883,460,10,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815734204,anytimetips,brand,1.0,0,1984,54,4,0.925,text_has_emoji & text_n_urls_low & uploaded_image -> human
+815721268,chicdecorstyles,brand,1.0,0,643,68,10,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815734124,RobProvince,brand,0.352,0,109122,34978,39,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815721594,NormalLass,brand,0.6707,0,1103,474,7,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815735103,GbenroBasit,brand,1.0,0,4194,51,10,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815734068,Sunglare,brand,0.6723,0,9040,9355,9,0.925,text_has_emoji & text_n_urls_low & uploaded_image -> human
+815721726,labelsforlunch,brand,0.6694,0,22021,96090,34,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815731255,LondonRIB,brand,1.0,0,6578,789,14,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815735292,19jim47,brand,0.6665,0,1762,507,10,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815733845,JoySeele,brand,0.6539,0,3,0,4,0.925,text_has_emoji & text_n_urls_low & uploaded_image -> human
+815729425,_Lantern_,brand,0.344,0,18286,431,14,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815735349,thebestmashups,brand,1.0,0,124,2,10,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815733519,HeshamBeram,brand,0.3312,0,44198,462,22,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815728286,SJ_Press,brand,1.0,0,17,19,7,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815720486,_LHS_Leadership,brand,1.0,0,1360,756,10,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815722137,Cekeshe,brand,0.6789,0,26564,3652,20,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815733316,dialecticube,brand,0.6726,0,30495,66460,19,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815737925,5SOSHotelReport,brand,1.0,0,9130,506,22,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815734380,MrAmaru,brand,0.6733,0,71731,766,12,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815732307,calvin_kieran,brand,0.6825,0,152907,28253,21,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815731121,nevertooo1D,brand,0.6685,0,6516,8108,13,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815738576,JbSleaz,brand,1.0,0,46332,175,12,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815723600,AlboSwagger,brand,0.6736,0,416,59,24,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815731772,MusikDaLYCD,brand,1.0,0,9414,758,8,0.925,text_has_emoji & text_n_urls_low & uploaded_image -> human
+815719581,IgniteMeRiRi,brand,0.6634,0,21806,13892,13,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815739350,noonmohsharfi,brand,0.6585,0,1220,1716,14,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815738484,carpetscheshire,brand,1.0,0,42,4,10,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815727146,FightOn2Victory,brand,1.0,0,4061,4006,21,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815738632,irishgoespop,brand,0.6688,0,84817,3554,20,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815731688,MBieber_Smith,brand,0.6627,0,43545,5490,32,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815730825,iWant_Gaga,brand,0.6923,0,39619,26220,17,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815738672,SkatersChoiceCO,brand,1.0,0,714,1158,14,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815723324,LukeIsASequin,brand,0.6543,1,13204,19723,17,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815727157,in_the_bagPR,brand,1.0,0,6351,3953,21,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815739202,KidrauhllNey,brand,0.6674,0,7153,1357,12,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815719561,Chargers_NEFL,brand,1.0,0,291,110,10,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815732246,CassperNyoves18,brand,0.347,0,1688,902,6,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815727046,DiamondDawit,brand,0.672,0,1210,87,22,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815719805,OHS_SRC,brand,1.0,0,881,242,14,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815727064,BanJen15,brand,0.6761,0,1203,1958,10,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815739540,KuKu_EmmaW_fan,brand,0.3418,0,15746,1235,9,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815731399,ItsJust_Aileen,brand,0.6618,0,5947,128,14,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815738843,DCProductionLTD,brand,1.0,0,96,79,10,0.925,has_description & text_has_emoji & text_n_urls_low -> human
+815720556,The_Tiders,brand,1.0,0,9213,7570,11,0.922,custom_sidebar_colour & text_has_emoji -> human
+815725559,MSK_ISU,brand,0.6724,0,2816,23,11,0.922,custom_sidebar_colour & text_has_emoji -> human
+815733661,LIVESTOCKcanada,brand,1.0,0,28659,1233,11,0.922,custom_sidebar_colour & text_has_emoji -> human
+815722319,ChloeGilchrist1,brand,1.0,0,698,9,9,0.922,custom_link_colour & text_has_emoji -> human
+815738920,CowCandyCo,brand,1.0,0,941,185,11,0.922,custom_sidebar_colour & text_has_emoji -> human
+815723021,CosmopolitanNG,brand,1.0,0,3236,35,15,0.922,custom_sidebar_colour & text_has_emoji -> human
+815729577,Crimson_Chaos,brand,1.0,0,3825,190,11,0.922,custom_sidebar_colour & text_has_emoji -> human
+815731036,CCS_Skate,brand,1.0,0,14577,1338,6,0.922,custom_sidebar_colour & text_has_emoji -> human
+815722191,snapchatsupport,brand,1.0,0,53503,227,11,0.922,custom_sidebar_colour & text_has_emoji -> human
+815720445,LittleMix,brand,0.6623,0,23060,2442,8,0.922,custom_sidebar_colour & text_has_emoji -> human
+815723317,CosmopolitanUK,brand,1.0,0,87286,1525,8,0.922,custom_sidebar_colour & text_has_emoji -> human
+815726616,MejoresLook,brand,1.0,0,851,6550,11,0.922,custom_sidebar_colour & text_has_emoji -> human
+815739348,5sosmeetupdayS,brand,1.0,0,315,93,11,0.922,custom_sidebar_colour & text_has_emoji -> human
+815719702,KitsonLA,brand,1.0,0,5891,758,11,0.922,custom_sidebar_colour & text_has_emoji -> human
+815721625,LosHalepenos,brand,1.0,0,209,146,11,0.922,custom_sidebar_colour & text_has_emoji -> human
+815723880,TCultureVulture,brand,0.6445,0,13118,4480,11,0.922,custom_sidebar_colour & text_has_emoji -> human
+815734437,KathNielsGlobal,brand,1.0,0,50117,3363,11,0.922,custom_sidebar_colour & text_has_emoji -> human
+815734244,Collinsfrappe,brand,0.3489,0,51501,49411,11,0.922,custom_sidebar_colour & text_has_emoji -> human
+815727202,Ticketmaster,brand,1.0,0,28651,5955,11,0.922,custom_sidebar_colour & text_has_emoji -> human
+815723102,aSEATaxiCab,brand,1.0,0,65787,26,11,0.922,custom_sidebar_colour & text_has_emoji -> human
+815730653,GlitterSpresso,brand,0.6841,0,34948,27102,11,0.922,custom_sidebar_colour & text_has_emoji -> human
+815729142,DEEJAYMOB,brand,1.0,0,32217,34,9,0.922,custom_sidebar_colour & text_has_emoji -> human
+815737507,RarrDesigns,brand,1.0,0,1557,9,11,0.922,custom_sidebar_colour & text_has_emoji -> human
+815722743,iamtwine,brand,0.6656,0,5899,8771,9,0.922,custom_link_colour & text_has_emoji -> human
+815725986,LibromusicaIES,brand,0.6607,0,3393,42029,8,0.922,custom_sidebar_colour & text_has_emoji -> human
+815738205,healfranta,brand,0.6685,0,21126,8440,9,0.922,custom_link_colour & text_has_emoji -> human
+815725980,7digital_UK,brand,0.6666,0,10970,439,6,0.922,custom_sidebar_colour & text_has_emoji -> human
+815736956,mytimeIord,brand,0.6554,0,29650,1721,11,0.922,custom_sidebar_colour & text_has_emoji -> human
+815733891,lovelittlelush,brand,1.0,0,56,3,11,0.922,custom_sidebar_colour & text_has_emoji -> human
+815725467,80slukeftharry,brand,0.6567,0,63940,18977,8,0.922,custom_sidebar_colour & text_has_emoji -> human
+815720844,TradexFoods,brand,1.0,0,39805,2752,7,0.909,text_has_emoji & uploaded_image -> human
+815721709,InstaDresden,brand,0.6767,0,72785,0,7,0.909,text_has_emoji & uploaded_image -> human
+815735585,ajstenaka,brand,0.6447,0,176631,61758,15,0.909,text_has_emoji & uploaded_image -> human
+815720654,wellmemedsir,brand,0.6465,0,496,0,4,0.909,text_has_emoji & uploaded_image -> human
+815729709,AnoudaBlogger,brand,1.0,0,29842,113,7,0.909,text_has_emoji & uploaded_image -> human
+815737028,beastcoastlyfe,brand,0.6638,0,5354,1940,7,0.909,text_has_emoji & uploaded_image -> human
+815722461,DominationTos,brand,0.6458,0,1560,609,12,0.909,text_has_emoji & uploaded_image -> human
+815723083,NHCUpdatesWW,brand,1.0,0,274,74,7,0.909,text_has_emoji & uploaded_image -> human
+815722876,FemaIeFltness,brand,0.6686,0,3,0,2,0.909,text_has_emoji & uploaded_image -> human
+815737550,CHVRCHESUK,brand,1.0,0,306,522,4,0.909,text_has_emoji & uploaded_image -> human
+815727560,beautybydavinia,brand,0.6636,0,7315,1986,7,0.909,text_has_emoji & uploaded_image -> human
+815730962,SmpBangers,brand,0.6769,0,629,1,7,0.909,text_has_emoji & uploaded_image -> human
+815724302,CorsoDavidEd,brand,0.6905,0,48,0,7,0.909,text_has_emoji & uploaded_image -> human
+815736810,KSGGeog,brand,1.0,0,1554,195,7,0.909,text_has_emoji & uploaded_image -> human
+815733080,young_ent,brand,1.0,0,5423,526,7,0.909,text_has_emoji & uploaded_image -> human
+815720107,RidgeWorld,brand,0.6612,0,32441,2169,7,0.909,text_has_emoji & uploaded_image -> human
+815729897,Styles2blaze1,brand,1.0,0,6119,87,7,0.909,text_has_emoji & uploaded_image -> human
+815727824,Foothill_Dance,brand,1.0,0,1250,1013,7,0.909,text_has_emoji & uploaded_image -> human
+815728125,OnefaststasisS5,brand,0.6909,0,15434,8458,2,0.909,text_has_emoji & uploaded_image -> human
+815724539,SoddersLiger,brand,0.3474,0,66671,19013,23,0.898,fav_number_high & text_len_low -> human
+815731135,xKrki,brand,0.6759,0,81172,29403,25,0.898,fav_number_high & text_len_low -> human
+815734350,pumpkin_horse,brand,0.6502,0,16682,19060,18,0.898,fav_number_high & text_len_low -> human
+815723056,byediva,brand,0.6602,0,141893,11512,23,0.898,fav_number_high & text_len_low -> human
+815724460,harry_f0ols,brand,0.6735,0,27804,14492,23,0.898,fav_number_high & text_len_low -> human
+815732415,viria13,brand,0.6543,0,28998,17002,23,0.898,fav_number_high & text_len_low -> human
+815722929,fosteravepro,brand,0.6642,0,18396,12681,23,0.898,fav_number_high & text_len_low -> human
+815734181,monstracious,brand,0.6578,0,12799,11761,19,0.898,fav_number_high & text_len_low -> human
+815729321,nobrightside,brand,0.6566,0,36761,5878,18,0.898,fav_number_high & text_len_low -> human
+815724051,bonfiresband,brand,0.6648,0,3933,5523,23,0.898,fav_number_high & text_len_low -> human
+815733298,BardockIRL,brand,0.6678,0,13447,7168,23,0.898,fav_number_high & text_len_low -> human
+815724358,JesTr0n,brand,0.6639,0,16745,16496,23,0.898,fav_number_high & text_len_low -> human
+815730430,Fuegofandango,brand,0.6582,0,12394,5116,18,0.898,fav_number_high & text_len_low -> human
+815733698,takua343,brand,0.6631,0,67969,17111,16,0.898,fav_number_high & text_len_low -> human
+815724251,kamyb22,brand,0.3401,0,5218,8390,19,0.898,fav_number_high & text_len_low -> human
+815732012,kenziesachen,brand,0.3361,0,14447,13532,19,0.898,fav_number_high & text_len_low -> human
+815721732,the_dirty_ho,brand,0.6679,0,7706,5897,10,0.898,fav_number_high & text_len_low -> human
+815734044,Adlez27,brand,1.0,0,15428,17914,23,0.898,fav_number_high & text_len_low -> human
+815723329,SketchMasterMJH,brand,0.6659,0,37796,6769,20,0.898,fav_number_high & text_len_low -> human
+815734033,samsBellabob,brand,1.0,0,177273,147341,19,0.898,fav_number_high & text_len_low -> human
+815724741,daejones,brand,0.6736,0,31195,6587,18,0.898,fav_number_high & text_len_low -> human
+815722026,CollyPUG,brand,0.6492,0,11624,4098,8,0.898,fav_number_high & text_len_low -> human
+815729965,BriMercedes,brand,0.6792,0,5370,5038,23,0.898,fav_number_high & text_len_low -> human
+815729588,luciboo80,brand,0.347,0,34622,6321,23,0.898,fav_number_high & text_len_low -> human
+815735282,darkIaws,brand,0.6602,0,113390,29294,23,0.898,fav_number_high & text_len_low -> human
+815727634,thewasabiman,brand,1.0,0,20641,19537,23,0.898,fav_number_high & text_len_low -> human
+815726241,BigBoxRadio,brand,1.0,0,114663,7065,10,0.898,fav_number_high & text_len_low -> human
+815735938,yomings,brand,0.3632,0,44471,30365,23,0.898,fav_number_high & text_len_low -> human
+815736009,pewdiepie_ITBot,brand,0.6766,0,118624,7934,15,0.898,fav_number_high & text_len_low -> human
+815736461,whoaskedyoushit,brand,0.648,0,67985,9871,23,0.898,fav_number_high & text_len_low -> human
+815727669,_shunsou,brand,0.6707,0,57484,7396,14,0.898,fav_number_high & text_len_low -> human
+815720206,SharmarkeAhmed4,brand,1.0,0,3180,5210,19,0.898,fav_number_high & text_len_low -> human
+815737289,animeneesan,brand,0.6726,0,11841,6914,23,0.898,fav_number_high & text_len_low -> human
+815720053,ChelseaWrenArt,brand,0.6691,0,7262,13968,23,0.898,fav_number_high & text_len_low -> human
+815720041,dazM33,brand,0.6678,0,103575,7852,23,0.898,fav_number_high & text_len_low -> human
+815727430,aceIucy,brand,0.6589,0,128163,21788,23,0.898,fav_number_high & text_len_low -> human
+815737697,KnifeStitch,brand,0.6478,0,3394,3576,21,0.898,fav_number_high & text_len_low -> human
+815719911,SpiritOfEnLes,brand,0.6456,0,22886,40107,20,0.898,fav_number_high & text_len_low -> human
+815726269,wandarection_,brand,0.6754,0,18497,30142,23,0.898,fav_number_high & text_len_low -> human
+815728285,Cellusious,brand,1.0,0,48062,51591,23,0.898,fav_number_high & text_len_low -> human
+815737960,CoolTrainrJulio,brand,0.6562,0,6371,4224,18,0.898,fav_number_high & text_len_low -> human
+815727267,bobcatarts,brand,0.6574,0,20238,9342,19,0.898,fav_number_high & text_len_low -> human
+815738051,GiftsVitality,brand,0.6808,0,28153,39302,23,0.898,fav_number_high & text_len_low -> human
+815727162,observer,brand,1.0,0,45445,15961,10,0.898,fav_number_high & text_len_low -> human
+815738130,2faceh,brand,0.6296,0,19389,7660,16,0.898,fav_number_high & text_len_low -> human
+815719776,Rampantredlion1,brand,0.6672,0,8710,6579,15,0.898,fav_number_high & text_len_low -> human
+815719699,inimba,brand,0.6404,0,1513,13185,21,0.898,fav_number_high & text_len_low -> human
+815726623,ZOANTHROPOLOGY,brand,0.6872,0,38857,13576,6,0.898,fav_number_high & text_len_low -> human
+815739142,Helz999,brand,0.6771,0,81234,9251,8,0.898,fav_number_high & text_len_low -> human
+815739377,BarbasolShave,brand,1.0,0,17775,5531,11,0.898,fav_number_high & text_len_low -> human
+815727055,EventopediaUK,brand,1.0,0,18770,5236,23,0.898,fav_number_high & text_len_low -> human
+815720482,BostonRDT,brand,1.0,0,31588,219586,6,0.898,fav_number_high & text_len_low -> human
+815731398,hesft1975,brand,0.3462,0,125969,79112,23,0.898,fav_number_high & text_len_low -> human
+815729162,StarSignMakoto,brand,0.6743,0,65960,4453,18,0.898,fav_number_high & text_len_low -> human
+815721110,drksportsnews,brand,1.0,0,3508,6384,19,0.898,fav_number_high & text_len_low -> human
+815721092,dntsqzthchrmn,brand,0.683,0,113831,85379,12,0.898,fav_number_high & text_len_low -> human
+815728461,wickedshrapnel,brand,1.0,0,59388,28022,23,0.898,fav_number_high & text_len_low -> human
+815720768,COGICgopChica,brand,0.6774,0,5679,3777,19,0.898,fav_number_high & text_len_low -> human
+815728680,DrHotelMario,brand,0.6362,0,5171,4360,23,0.898,fav_number_high & text_len_low -> human
+815721032,OneOfTheDingoes,brand,1.0,0,5424,3888,5,0.898,fav_number_high & text_len_low -> human
+815721160,RedditDesign,brand,1.0,0,43549,190591,6,0.898,fav_number_high & text_len_low -> human
+815724819,Barokoru,brand,0.6879,0,5779,3485,19,0.898,fav_number_high & text_len_low -> human
+815720888,Isolated_Shadow,brand,0.6747,0,60172,15831,23,0.898,fav_number_high & text_len_low -> human
+815728390,PixelSSB,brand,0.6616,0,60414,28337,23,0.898,fav_number_high & text_len_low -> human
+815734629,IHOP,brand,1.0,0,49906,56266,16,0.898,fav_number_high & text_len_low -> human
+815720701,jvngwheein,brand,0.6774,0,38836,10849,23,0.898,fav_number_high & text_len_low -> human
+815720588,tomlinsgomez,brand,0.6508,0,75289,12448,23,0.898,fav_number_high & text_len_low -> human
+815719253,the_offical_ios,brand,0.6667,0,12715,5601,8,0.898,fav_number_high & text_len_low -> human
+815727291,iglvzx_ebooks,brand,0.6682,0,26207,1419,8,0.88,favs_per_day_high & text_len_low & uploaded_image -> human
+815732838,obsessed_boyban,brand,0.6745,0,4189,2020,8,0.88,favs_per_day_high & text_len_low & uploaded_image -> human
+815737186,bonhomme37,brand,0.6584,0,7777,859,4,0.88,favs_per_day_high & text_len_low & uploaded_image -> human
+815725173,powderballcp,brand,1.0,0,122,359,9,0.88,favs_per_day_high & text_len_low & uploaded_image -> human
+815731940,NYTweetz,brand,0.3498,0,100903,2702,9,0.88,favs_per_day_high & text_len_low & uploaded_image -> human
+815729279,DiversityIsALie,brand,1.0,0,82,13,5,0.88,favs_per_day_high & text_len_low & uploaded_image -> human
+815736675,SHSComplimnts,brand,1.0,0,79,60,5,0.88,favs_per_day_high & text_len_low & uploaded_image -> human
+815723702,Fendrake,brand,0.6665,0,1342,900,12,0.88,favs_per_day_high & text_len_low & uploaded_image -> human
+815725166,lrhstereo,brand,0.6787,0,2651,1069,5,0.88,favs_per_day_high & text_len_low & uploaded_image -> human
+815725877,RaiderDelta,brand,0.6534,0,38605,2103,12,0.88,favs_per_day_high & text_len_low & uploaded_image -> human
+815726216,SaleSafari,brand,1.0,0,2371,539,8,0.88,favs_per_day_high & text_len_low & uploaded_image -> human
+815733966,mywaitisu,brand,0.3449,0,4958,2291,11,0.88,favs_per_day_high & text_len_low & uploaded_image -> human
+815727114,Mythical_Skrub,brand,0.6415,0,5059,1337,12,0.88,favs_per_day_high & text_len_low & uploaded_image -> human
+815725645,SMACKHighNY,brand,0.678,0,19865,3077,12,0.88,favs_per_day_high & text_len_low & uploaded_image -> human
+815730773,MoreFifaFun,brand,1.0,0,1658,462,3,0.88,favs_per_day_high & text_len_low & uploaded_image -> human
+815733577,weeddream420,brand,1.0,0,227,373,12,0.88,favs_per_day_high & text_len_low & uploaded_image -> human
+815732290,blazingbooks420,brand,0.6912,0,1814,613,12,0.88,favs_per_day_high & text_len_low & uploaded_image -> human
+815725447,Zinxii_FFA,brand,0.3497,0,80,381,4,0.879,favs_per_day_high & text_len_low -> human
+815723772,Prostar84381634,brand,0.6602,0,123,3,4,0.873,has_location & text_len_low & text_n_urls_low -> human
+815726368,en_iyi_vine,brand,0.6595,0,111,0,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815727132,NowOnMKEOldies,brand,1.0,0,182337,0,4,0.873,has_location & text_len_low & text_n_urls_low -> human
+815726481,ogobogocom,brand,1.0,0,18539,0,4,0.873,has_location & text_len_low & text_n_urls_low -> human
+815723797,iROCK109,brand,1.0,0,224523,4,5,0.873,has_location & text_len_low & text_n_urls_low -> human
+815727117,Hobie_Dog,brand,0.66,0,20095,1085,4,0.873,has_location & text_len_low & text_n_urls_low -> human
+815724834,meekjr_,brand,0.6542,0,8571,112,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815727109,loookapanda,brand,0.6705,0,2101,1025,7,0.873,has_location & text_len_low & text_n_urls_low -> human
+815723590,Garen_bot,brand,0.6663,0,7855,0,5,0.873,has_location & text_len_low & text_n_urls_low -> human
+815727066,CHIRPPlaylist,brand,1.0,0,175877,4,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815729201,KazJester,brand,0.6591,0,7108,1194,4,0.873,has_location & text_len_low & text_n_urls_low -> human
+815727279,jesu31598,brand,0.6653,0,31322,0,2,0.873,has_location & text_len_low & text_n_urls_low -> human
+815727324,MrmappyINOF,brand,0.6574,0,1226,67,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815730796,ReindeerBrayden,brand,0.6692,0,51,42,4,0.873,has_location & text_len_low & text_n_urls_low -> human
+815727739,NowOnWHUS,brand,1.0,0,74769,0,4,0.873,has_location & text_len_low & text_n_urls_low -> human
+815724496,BlueRocVII,brand,1.0,0,205,5,4,0.873,has_location & text_len_low & text_n_urls_low -> human
+815725623,LABconsignment,brand,1.0,0,10804,18,5,0.873,has_location & text_len_low & text_n_urls_low -> human
+815729681,TeamYouTube,brand,1.0,0,3041,7,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815724426,Postmates_Help,brand,1.0,0,7068,11,4,0.873,has_location & text_len_low & text_n_urls_low -> human
+815725752,scarybotsla,brand,1.0,0,1595,0,4,0.873,has_location & text_len_low & text_n_urls_low -> human
+815725381,wayoftheaviator,brand,0.6524,1,2579,0,4,0.873,has_location & text_len_low & text_n_urls_low -> human
+815729691,History_Hit,brand,1.0,0,1870,779,4,0.873,has_location & text_len_low & text_n_urls_low -> human
+815725330,nuki_shitposts,brand,0.6446,0,4571,195,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815728081,The_Kohinoor,brand,0.6569,0,4397,200,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815724385,afscot,brand,0.6619,0,30052,521,5,0.873,has_location & text_len_low & text_n_urls_low -> human
+815729780,itsterrio_hoe,brand,0.6704,0,21634,19,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815725934,erynies,brand,0.6488,0,11664,788,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815728522,TandumEnt,brand,1.0,0,134,3,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815724599,d_michaelsatele,brand,0.6333,0,559,289,10,0.873,has_location & text_len_low & text_n_urls_low -> human
+815724698,Troptraditions,brand,1.0,0,22675,6,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815724209,brewerpackaging,brand,1.0,0,573,35,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815724144,PopKarma,brand,1.0,0,1356,198,4,0.873,has_location & text_len_low & text_n_urls_low -> human
+815724134,yell999,brand,0.6539,0,27,1,4,0.873,has_location & text_len_low & text_n_urls_low -> human
+815730262,Kyuugayaku,brand,0.6685,0,32691,1390,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815727479,_MyDemons__,brand,1.0,0,50806,2903,4,0.873,has_location & text_len_low & text_n_urls_low -> human
+815724077,vBubblez,brand,0.6524,0,262,110,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815727410,UH_MVP,brand,1.0,0,3624,28,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815730555,GMDancers,brand,1.0,0,457,20,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815727299,BIRP,brand,0.6739,0,5431,1407,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815724798,BognorRegisHour,brand,1.0,0,3584,1725,4,0.873,has_location & text_len_low & text_n_urls_low -> human
+815722474,bpeculiarmusic,brand,1.0,0,2425,165,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815726978,WKNC881Playlist,brand,1.0,0,280894,3,5,0.873,has_location & text_len_low & text_n_urls_low -> human
+815732990,bot_flippy,brand,0.3419,0,70907,0,4,0.873,has_location & text_len_low & text_n_urls_low -> human
+815733022,autohomer,brand,1.0,0,60657,16,4,0.873,has_location & text_len_low & text_n_urls_low -> human
+815722401,TaibaDXB,brand,1.0,0,992101,0,4,0.873,has_location & text_len_low & text_n_urls_low -> human
+815733166,tpmquiz,brand,1.0,0,2202,0,4,0.873,has_location & text_len_low & text_n_urls_low -> human
+815719832,DeadlyRave,brand,0.6617,0,14446,508,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815719856,WZBC_Live,brand,1.0,0,236196,0,4,0.873,has_location & text_len_low & text_n_urls_low -> human
+815737814,HiawathaSchool,brand,1.0,0,1079,1,4,0.873,has_location & text_len_low & text_n_urls_low -> human
+815719949,GirlOnUtd,brand,0.6672,0,34789,2394,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815737618,theunitedmanc,brand,1.0,0,6851,329,4,0.873,has_location & text_len_low & text_n_urls_low -> human
+815737554,przemusiowa,brand,0.6461,0,41945,1831,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815722043,AsxireGaming,brand,0.6879,0,34,5,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815733716,SuicideBiscuits,brand,0.6683,1,115651,3297,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815719997,AudreyEnjoyLife,brand,0.6655,0,72834,860,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815721979,biIIielurk,brand,0.3566,0,10737,1860,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815721978,ntfc_trust,brand,1.0,0,1275,20,4,0.873,has_location & text_len_low & text_n_urls_low -> human
+815737337,KCSAR,brand,1.0,0,217,35,4,0.873,has_location & text_len_low & text_n_urls_low -> human
+815734342,dadadaily,brand,0.6534,0,54514,249,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815720067,cyberwuff,brand,0.6857,0,29142,3166,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815720088,RONAinc,brand,1.0,0,4454,606,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815734513,bama_tweets,brand,0.6615,0,3436,707,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815721239,RedLineCommuter,brand,0.3551,0,1289,713,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815734999,Nuevomedio,brand,1.0,0,313386,1269,7,0.873,has_location & text_len_low & text_n_urls_low -> human
+815731534,COTemperature,brand,1.0,0,984,0,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815721127,KearnyMesaFIAT,brand,1.0,0,6825,289,5,0.873,has_location & text_len_low & text_n_urls_low -> human
+815721108,roobiebot,brand,0.695,0,3509,0,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815720383,ROYelHassan,brand,0.6789,0,67063,113,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815720560,rekkanoken,brand,1.0,0,4148,3,4,0.873,has_location & text_len_low & text_n_urls_low -> human
+815735600,BaltNetRadio,brand,1.0,0,726980,5,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815735607,Porcelanosa_EN,brand,1.0,0,2269,2021,5,0.873,has_location & text_len_low & text_n_urls_low -> human
+815720508,kgon,brand,1.0,0,3964,63,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815738070,StrikeFM,brand,1.0,0,6492,333,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815733336,OSTtalk,brand,1.0,0,5808,578,4,0.873,has_location & text_len_low & text_n_urls_low -> human
+815732901,SLightmaree,brand,0.6614,0,8060,1841,4,0.873,has_location & text_len_low & text_n_urls_low -> human
+815722836,handbuiltcity,brand,1.0,0,2518,76,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815731539,dks2_ebooks,brand,1.0,0,1922,0,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815731718,AlmiiCuello,brand,0.314,0,2885,68,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815731753,InRainesville,brand,0.6887,0,769,557,4,0.873,has_location & text_len_low & text_n_urls_low -> human
+815731889,311guy,brand,0.6619,0,551,66,4,0.873,has_location & text_len_low & text_n_urls_low -> human
+815739536,OrionsBlack,brand,0.6744,1,515,10,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815723037,My1Universe,brand,1.0,0,101466,291,4,0.873,has_location & text_len_low & text_n_urls_low -> human
+815739402,KINGPOM_FUCKYOU,brand,0.6661,0,55823,202,4,0.873,has_location & text_len_low & text_n_urls_low -> human
+815732407,IUParking,brand,1.0,0,757,252,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815738704,AskAmex,brand,1.0,0,288555,3,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815732567,Thor_of_Asgard1,brand,1.0,0,1864,60,4,0.873,has_location & text_len_low & text_n_urls_low -> human
+815738508,ShezaHolmes,brand,0.6461,0,139162,2006,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815723028,inthebarberry,brand,0.6526,0,1138,470,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815722828,JKE_G,brand,0.6769,0,12783,771,5,0.873,has_location & text_len_low & text_n_urls_low -> human
+815722730,naegisnaegi,brand,0.6618,0,33061,2690,10,0.873,has_location & text_len_low & text_n_urls_low -> human
+815720454,BrandsKingdom,brand,1.0,0,700,14,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815722785,CentralValleyTV,brand,1.0,0,27624,490,8,0.873,has_location & text_len_low & text_n_urls_low -> human
+815727136,Ididntfart,brand,0.6796,0,650,470,1,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815738253,cashset_Lae,brand,1.0,0,27659,1629,2,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815738167,Pichubot,brand,0.3519,0,2348,5,1,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815739562,PegassusBroker,brand,1.0,0,32303,5,5,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815736462,GetYourTipsOut,brand,1.0,0,140837,16948,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815736374,AkraticBehavior,brand,0.6818,0,211,264,7,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815727983,black2_Bot,brand,0.3353,0,29993,0,1,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815739580,BabiesGunsJesus,brand,0.6354,0,10783,4424,6,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815736154,RazaHussain101,brand,0.6553,0,24192,9344,6,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815737902,UOTrackFangirl,brand,0.6472,0,116158,44877,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815737949,wan2golf,brand,0.6596,0,7414,0,1,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815728098,Hollyoakslover3,brand,0.6674,0,16081,1236,5,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815735889,Ovalegal,brand,0.6715,0,4725,29330,5,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815727024,loseyourself235,brand,0.3397,0,72465,13155,8,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815737967,ACHoang32,brand,1.0,0,10288,1728,5,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815735871,Doctorwhat2,brand,0.6743,0,4643,3719,6,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815727895,_Turntway,brand,0.6589,0,3410,1166,2,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815736489,TravelHistory_,brand,0.6735,0,3354,3519,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815738807,94charminglouis,brand,0.6686,0,90128,81861,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815738686,CandidoDhess,brand,0.6698,0,58932,27272,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815736502,GeckoQuoteBot,brand,0.6801,0,14311,0,1,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815736589,iamdaman00,brand,0.6476,0,5796,11547,6,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815736853,theARKHAM_,brand,0.6809,0,1322,17,1,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815727643,MartyMcTweet,brand,0.6474,0,86277,4504,6,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815736990,club_musica173,brand,1.0,0,567,0,1,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815738075,Brawler_WF,brand,1.0,0,3581,4182,6,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815738467,aafx0_,brand,1.0,0,55,17,1,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815739270,_boog1,brand,0.6653,0,44446,7531,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815739043,AsahSkye,brand,0.6667,0,34427,29239,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815728239,AKB48Fans2,brand,1.0,0,43759,5,2,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815727542,gene14800846,brand,1.0,0,165,54,1,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815737381,JackRogersUSA,brand,0.6798,0,9988,7799,6,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815727461,antelopeezer,brand,0.6882,0,21065,7830,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815739429,LOSGIDDY,brand,0.3489,0,252485,15163,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815731290,turnertech_carl,brand,0.6654,0,2605,4133,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815735694,SWTvictim,brand,0.6597,0,3778,4938,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815730536,TedTerrier,brand,0.6701,0,31874,11317,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815733214,MightyAvocado,brand,0.6534,0,11665,12271,6,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815729724,milton_book7,brand,0.6749,0,227409,0,4,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815733121,AMTStatus,brand,0.6766,0,25165,0,1,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815733096,sypijeleje,brand,0.6583,0,1409,0,1,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815726875,noquestions,brand,0.6777,0,76804,0,1,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815730108,KrustyAllslopp,brand,0.6759,0,254037,57129,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815730130,worldrafanadal,brand,1.0,0,295,299,1,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815732828,AnimalWorIds,brand,0.6501,0,15060,0,5,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815730207,WanderingNewbie,brand,0.658,0,27736,3709,6,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815732581,Lazybotts,brand,1.0,0,2343,4086,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815732576,fluffycrossover,brand,1.0,0,1492,0,5,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815733374,littleredspook,brand,0.6502,0,2807,4626,6,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815732524,Sigueme_todo,brand,0.3485,0,4354,0,1,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815732421,Bigoldsupermoon,brand,0.6557,0,1571,5710,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815732398,613Linkshot,brand,0.6672,0,46767,14559,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815732360,SoftballConnect,brand,0.6699,0,37267,22714,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815730816,lynhamlett1,brand,0.3403,0,10084,10533,6,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815732178,dariancordova,brand,0.6615,0,1621,1189,5,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815732136,Dormality,brand,1.0,0,538,40,5,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815731844,kgracehicks2,brand,0.6429,0,7419,5114,5,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815731019,voidfangchest,brand,0.6796,0,2852,11674,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815731549,Phoenixarised,brand,0.6525,0,40666,60254,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815733220,420_Alert,brand,0.6801,0,46338,6,1,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815733444,LushWeCare,brand,1.0,0,16519,4893,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815735624,IketheNinja14,brand,0.6508,0,4695,7875,6,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815734805,nutellAHarris24,brand,0.3385,0,10802,12269,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815728295,superwomanchick,brand,0.6658,0,12234,4443,9,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815728363,Unitedinprayer1,brand,1.0,0,23828,30161,6,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815735533,CanadianBeats1,brand,1.0,0,12726,5332,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815735389,Thatdamn_Scrapp,brand,0.3383,0,27537,5102,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815735371,FarehamNetwork,brand,1.0,0,14234,10124,6,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815735294,TWDSAfrica,brand,1.0,0,14066,6370,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815735283,TruthBToldDe,brand,0.647,0,22781,69,5,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815735138,FrostyBear21,brand,0.6641,0,40832,12499,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815728912,superTV247,brand,1.0,0,35625,17655,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815729137,VerseUniverse,brand,0.6688,0,84,200,3,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815734600,JonaSchnedi,brand,0.3418,0,1664,45,5,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815733464,QuestionAll7,brand,1.0,0,4314,5801,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815729176,rasputinmethod,brand,0.6774,0,8001,5051,6,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815734561,dontcry_bot,brand,0.3504,0,22467,0,1,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815734398,1electricpirate,brand,0.3577,0,17268,15968,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815734367,HenryBeans,brand,0.6757,0,45275,13719,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815734097,twlldun,brand,0.6656,0,57728,64379,6,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815729409,monetpearson,brand,1.0,0,5221,9824,6,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815733992,BonesDobie,brand,1.0,0,10312,6533,6,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815733835,bcfc_fans_fc,brand,1.0,0,3415,2152,1,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815729545,ClanViolent,brand,0.6579,0,59,25,1,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815733504,WhatsGrammar,brand,0.6777,0,15217,6759,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815728790,DoHoBOB,brand,0.3472,0,42657,16628,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815739594,Gbuschrist,brand,1.0,0,17851,14771,6,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815721551,JungIeBot,brand,1.0,0,5302,0,1,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815719820,blankyhanky17,brand,0.3436,0,744,1,1,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815726218,shorttalesbot,brand,1.0,0,6659,0,1,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815719831,blankyhanky11,brand,0.6648,0,748,1,1,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815725192,fact275,brand,0.6725,0,26851,12912,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815719930,StevePowellUKIP,brand,0.6766,0,12647,3825,5,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815719992,Heefosaurus,brand,0.6649,0,68068,18367,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815726122,SISHorseRacing,brand,1.0,0,39358,1,5,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815724527,vote41dbro,brand,1.0,0,1742,3,1,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815720793,glenichinosebot,brand,0.6688,0,2770,2,5,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815723440,robinnico71,brand,0.6592,0,20861,0,1,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815720034,PesadeliBot,brand,1.0,0,20119,2,1,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815726036,crushthebookie,brand,1.0,0,21547,46890,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815720070,CyberneticPym,brand,0.6523,0,650,18,1,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815720072,ckcucco,brand,0.6711,0,6196,8390,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815723431,nherfi,brand,0.6697,0,117638,0,5,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815720739,Noodles105,brand,0.6755,0,32102,79060,6,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815720525,reisakuma,brand,0.6769,0,45240,9205,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815722186,CWert41,brand,0.6944,0,5091,3714,6,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815723265,AstroAthene,brand,0.6625,0,15027,3521,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815720177,BlueCollarDrWho,brand,0.6603,0,68513,11400,6,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815720450,AFlyswatter,brand,1.0,0,52,0,1,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815724331,Zachs_A_Million,brand,0.6619,0,55905,5366,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815720266,DolphinDivePro,brand,0.6386,0,30219,17377,6,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815720381,intermtnsports,brand,1.0,0,67850,23317,6,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815722857,ThatBoysGood,brand,1.0,0,73554,51159,6,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815725882,fitboar,brand,0.3366,0,618,14,7,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815723135,WindsorBoysSocc,brand,1.0,0,321,0,1,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815722975,NcusheClothing,brand,0.6605,0,193,3,3,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815719830,blankyhanky10,brand,0.6473,0,745,1,1,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815723474,MrMoustacheCat,brand,0.6833,0,7553,5276,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815725790,SuchBadDogs,brand,0.6611,0,2613,0,1,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815726256,ltmcdies,brand,1.0,0,7396,6924,5,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815719264,lifessubatomic,brand,1.0,0,4840,3399,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815726871,ltsRealWords,brand,1.0,0,5295,1,5,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815719381,4qhks,brand,1.0,0,184740,0,5,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815723888,DubbzBear,brand,0.6409,0,68041,97888,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815724033,ssnaqi,brand,0.6656,0,85901,48781,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815726817,ZeusCarver,brand,0.6471,0,6714,290,5,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815721796,TheTimeBot,brand,1.0,0,55654,1,1,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815724745,deacon_smith,brand,1.0,0,7475,10324,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815721298,TLMRadioNL,brand,1.0,0,3374,0,5,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815724980,ARIZONATWEETZ,brand,0.3424,0,90123,3487,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815721909,Dessy_Dragon,brand,0.6946,1,7029,6285,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815726719,Shutter_Lense,brand,0.3459,0,2545,2224,1,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815719686,SchuckJH,brand,0.6765,0,12365,31068,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815726503,Gargamelkiller,brand,0.6667,0,22023,9447,6,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815723611,vitalninjaYT,brand,0.6734,0,943,618,1,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815723593,spazil,brand,0.6707,0,18787,17904,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815719770,blankyhanky5,brand,1.0,0,744,1,1,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815721972,AMCx32,brand,0.6602,0,35982,31025,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815724598,Mrs_SamusAran,brand,0.3478,0,36304,11145,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815725154,SMACKHighWA,brand,1.0,0,21880,5053,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815723537,BlackTopMediaUK,brand,0.6561,0,11495,7396,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815719777,blankyhanky4,brand,0.6687,0,745,1,1,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815721146,tsull5150,brand,0.3581,0,31249,44116,6,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815719800,KeizerCyrus,brand,0.3388,0,28042,8434,7,0.869,fav_number_high & link_default & text_n_urls_low -> human
+815719817,blankyhanky15,brand,0.6971,0,743,1,3,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815719818,blankyhanky19,brand,0.6694,0,738,1,1,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815726292,booktitlebot,brand,1.0,0,7520,0,5,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815720345,Rombaart,brand,1.0,0,49,42,5,0.869,text_len_low & text_n_urls_low & uploaded_image -> human
+815728570,stwj30528,brand,1.0,0,31296,0,1,0.868,custom_sidebar_colour & text_len_low & text_n_urls_low -> human
+815735225,hologramvron,brand,0.6475,0,44806,25998,7,0.864,fav_number_high & sidebar_default & text_n_urls_low -> human
+815730339,shizuizas,brand,1.0,0,64230,27663,6,0.864,fav_number_high & sidebar_default & text_n_urls_low -> human
+815720003,NotLikeFreddy,brand,0.6653,0,11683,7186,7,0.864,fav_number_high & sidebar_default & text_n_urls_low -> human
+815723426,Torbay_Hour,brand,1.0,0,56638,48266,7,0.864,fav_number_high & sidebar_default & text_n_urls_low -> human
+815736240,owldom,brand,0.6556,0,8530,8199,6,0.864,fav_number_high & sidebar_default & text_n_urls_low -> human
+815734420,pepperqt,brand,0.6569,0,9834,4976,7,0.864,fav_number_high & sidebar_default & text_n_urls_low -> human
+815734451,KrazzyTracy,brand,0.6676,0,11587,10305,5,0.864,fav_number_high & sidebar_default & text_n_urls_low -> human
+815729633,Kuwaballer,brand,0.3537,0,76386,13409,8,0.864,fav_number_high & sidebar_default & text_n_urls_low -> human
+815733770,nyaneyan,brand,0.6617,0,69129,36971,7,0.864,fav_number_high & sidebar_default & text_n_urls_low -> human
+815731845,sugarspankhorn,brand,0.65,0,3962,6494,7,0.864,fav_number_high & sidebar_default & text_n_urls_low -> human
+815738427,ThorThe_God,brand,1.0,0,51729,5202,7,0.864,fav_number_high & sidebar_default & text_n_urls_low -> human
+815733793,AIgerian,brand,0.6597,0,36671,16065,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815723581,judyleajackson,brand,1.0,0,66911,33675,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815733637,Fony_Zony,brand,0.6565,0,3922,7099,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815733675,XUrbanSimsX,brand,0.672,0,7124,5517,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815731009,GMShivers,brand,0.6638,0,107367,52055,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815733562,3CountThursday,brand,1.0,0,10927,4810,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815733960,SouthwestAir,brand,1.0,0,128065,4314,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815731005,samisuperfly,brand,0.3354,0,18680,6953,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815730950,JJayTee_,brand,0.6743,0,20049,5551,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815723827,Dewhz,brand,0.6672,0,9900,10285,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815721806,660NEWSTraffic,brand,1.0,0,39033,3980,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815723871,Iouvinglwt,brand,0.3388,0,64352,15301,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815734008,Shim_bop,brand,1.0,0,20849,12739,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815721769,lootcrate,brand,1.0,0,58047,9615,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815731321,GothGalaxyGirl,brand,0.6751,0,8390,15674,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815732461,xmaya5sos,brand,0.3463,0,73219,10357,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815731477,sellynatorss,brand,1.0,0,7433,15175,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815733005,DIRTYSTORIES,brand,1.0,0,18237,13554,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815732190,joXn,brand,0.3547,0,17470,8165,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815732721,sindarina,brand,0.6674,0,16391,3824,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815732878,GMcCorrister,brand,0.6471,0,59029,24969,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815732902,scgovLibrary,brand,1.0,0,7032,3773,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815721529,GrizzleBF,brand,1.0,0,26175,4963,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815732920,StripedGypsum,brand,0.6742,0,12272,9479,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815723206,ChayseFox,brand,0.6577,0,23144,7629,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815733002,SpinsterAndCat,brand,0.6581,0,115814,17935,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815733100,hell_ass_,brand,0.6769,0,43079,3771,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815731526,paparatti,brand,0.6361,0,127006,5367,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815731926,Dominos_UK,brand,1.0,0,202748,8232,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815733160,faviator,brand,0.688,0,66354,62592,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815733174,daddy_unchained,brand,0.3303,0,10001,3648,8,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815722164,oCruiise,brand,0.6368,0,20818,20459,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815733376,ShepherdThor,brand,0.6771,0,46616,43659,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815731692,PG_ESAM,brand,0.3449,0,9594,6271,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815722030,NeilaK20,brand,0.6591,0,72498,41942,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815722957,VirginActiveUK,brand,1.0,0,16595,3515,5,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815732024,rashidgill5,brand,0.6546,0,63184,11767,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815726930,sensualsehun,brand,0.6578,0,67917,15376,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815734194,zelimpa,brand,0.3507,0,7158,7730,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815719863,microdile,brand,0.3494,0,14174,4505,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815720301,irisannwests,brand,0.6723,1,13385,12237,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815736601,Lunatik_guy,brand,0.3425,0,100210,12227,9,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815736615,WaltFrench,brand,0.6448,0,12005,8511,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815720284,LifeAtPurdue,brand,1.0,0,20407,3876,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815720239,Butcherr666,brand,0.6468,0,43549,8026,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815736943,trivialattire,brand,0.3387,0,15552,24809,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815736962,goatsworthy,brand,0.3571,0,148,8749,9,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815737027,BACCV,brand,1.0,0,42977,40794,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815720114,DCDouchbag,brand,1.0,0,59594,63550,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815737036,DefiantBA,brand,1.0,0,49623,7474,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815737111,jab50yen,brand,0.6653,0,55491,23266,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815737404,drgnkiller,brand,0.6656,0,29189,7670,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815737509,viperblood77,brand,1.0,0,1703,7283,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815738012,r_wolfcastle,brand,0.6602,0,99845,54436,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815720340,etailPR,brand,1.0,0,12875,4085,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815738177,IUNewsTalk,brand,1.0,0,84922,3793,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815738337,mikleomore,brand,0.6601,0,40825,12030,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815738361,Imreallyshitty,brand,0.676,0,423,6405,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815738412,iAxX23,brand,0.6504,0,32963,8511,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815738604,crayoness,brand,0.6577,0,29326,11400,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815719693,TreJinkins,brand,0.6508,0,174,13738,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815738727,JDSempai,brand,0.3457,0,9584,5828,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815719619,Pixelfish,brand,0.6576,0,110856,36945,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815738851,ToneItUp,brand,1.0,0,49897,7061,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815738948,forestbirb,brand,0.3415,0,40643,53401,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815739231,BarbaraHewson,brand,0.6698,0,7690,8316,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815739271,loserstation,brand,1.0,0,2866,19288,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815739317,itzdizzle,brand,0.6623,0,12573,7341,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815736555,JulianLives,brand,0.6508,0,62307,9311,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815736412,armadillomon,brand,1.0,0,35393,25567,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815721493,RBHorseRacing,brand,1.0,0,238397,8559,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815730738,94heskind,brand,1.0,1,177810,54635,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815721473,IlIIlllIIIllIlI,brand,1.0,0,10023,11209,8,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815734375,semieitas,brand,0.6727,1,27701,8243,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815734397,sonicherosfan,brand,0.6846,0,10566,5395,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815734415,SaltCreekCN,brand,1.0,0,63613,11343,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815734519,RyProductions_,brand,0.6684,0,9730,4702,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815721286,phenokage,brand,0.6691,0,8318,6253,8,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815734573,killuaura,brand,0.341,0,53461,4515,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815734772,AspireAcademy,brand,1.0,0,11165,6297,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815721246,jadespr1te,brand,0.6655,0,4972,6070,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815734996,soukatsu_,brand,0.3392,0,21830,12508,8,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815735008,MistyDragon13,brand,0.6529,0,18296,11922,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815735055,L7Vinal,brand,1.0,0,30503,14329,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815735146,GripenNews,brand,1.0,0,18190,4396,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815721053,10MinDQ,brand,1.0,0,8053,16442,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815736408,SimplyAnder,brand,0.6396,0,128730,7539,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815735742,lukeslouis,brand,0.6937,0,102211,61078,8,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815735767,catholic_nun,brand,0.6681,0,38448,59794,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815735798,IamalrightJack,brand,0.6561,0,104501,3621,5,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815735832,GastroGays,brand,1.0,0,13889,8145,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815735836,cliffordatass,brand,0.3515,0,36804,69982,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815720451,Dem5SOS_Updates,brand,1.0,0,33512,13542,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815720443,always_vote,brand,0.6736,0,36748,7254,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815735980,Asahi_Chan86,brand,0.6755,0,79474,22351,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815736095,funkboii,brand,0.6815,0,5442,5745,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815720405,northernrailorg,brand,1.0,0,298853,5578,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815736168,MFM926,brand,1.0,0,96556,7169,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815736281,bbbrieger,brand,1.0,0,13873,15691,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815736330,Jazzzyone,brand,0.6558,0,232409,24005,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815730777,TrianglePascal,brand,0.3408,0,26088,4487,5,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815722430,creeper32605,brand,0.6432,0,23616,14337,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815719232,Shutterstock,brand,1.0,0,13354,4122,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815729310,Rob_Simple,brand,0.3548,0,20951,7549,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815725971,TheTodayShow,brand,1.0,0,96439,13103,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815725955,99designs,brand,1.0,0,37472,4375,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815724110,MochaLattePanda,brand,0.6691,0,14183,4194,5,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815730167,twinkhedgehog,brand,0.6506,0,10131,3503,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815730159,joriestory,brand,1.0,0,31280,22137,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815727673,waddledeequeen,brand,1.0,0,10220,10919,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815727725,tomlinflows,brand,0.6643,0,50548,57861,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815725895,spoon9z,brand,1.0,0,24827,11755,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815727792,locatheshowgirl,brand,0.672,0,55178,17464,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815725885,breebird33,brand,0.6404,0,5962,4244,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815727832,EdelmanGOAT,brand,0.6751,0,35259,14598,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815728020,sungohst,brand,0.3354,0,17751,17086,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815728057,JustEatUK,brand,1.0,0,146498,7753,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815724518,100trains,brand,1.0,0,56989,18386,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815729303,ajaw_,brand,0.6779,0,53073,6822,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815725551,pesra01,brand,0.6552,0,11845,40189,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815729988,frozenwarning,brand,1.0,0,71144,3469,5,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815729210,balticblau,brand,0.6608,0,74731,3851,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815725550,SMACKHighCT,brand,1.0,0,18392,4786,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815725481,LAKERFANATICS,brand,1.0,0,56770,3563,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815725233,WhatMaffTweets,brand,0.3417,0,40178,4851,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815729108,CoastlneConsult,brand,1.0,0,3666,3603,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815728940,HowitzerDoogie,brand,0.6575,0,25877,4265,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815728765,PsychospamYT,brand,1.0,0,8705,3508,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815728924,lawyerinbeta,brand,0.6534,0,67332,3661,5,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815725026,Marlnnn,brand,0.6555,0,10950,5265,5,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815729480,Chickenify,brand,1.0,0,19609,42050,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815729944,gemsglow,brand,0.656,0,37829,62063,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815724452,michaelcoyote,brand,0.3494,0,48639,21112,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815724107,MTVBrasil,brand,1.0,0,102956,18793,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815727133,Tawa8_12,brand,0.6341,0,18324,34918,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815726689,Gh0st2126,brand,0.6761,0,6276,14727,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815730322,TrueLies6,brand,0.6643,0,87788,3758,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815724321,TrickyBee,brand,0.6711,0,172361,25310,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815729683,frankenwentz,brand,0.6524,0,23453,10909,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815730678,SHERWlND,brand,0.6385,0,20474,42452,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815724092,RoloEdits,brand,1.0,0,5886,7749,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815730449,ZroHour,brand,0.6529,0,54759,12941,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815729770,DeThunderScoots,brand,1.0,0,37372,12151,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815727317,TVRepublik,brand,1.0,0,32070,9616,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815730349,NWSodor23,brand,0.6354,0,11262,3447,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815727080,TakeThatDarwin,brand,1.0,0,166727,77446,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815726855,AsdaServiceTeam,brand,1.0,0,209873,11727,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815724414,mike_brach,brand,0.6823,0,4720,3949,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815727388,mojo_YOjo,brand,0.6368,0,43047,9719,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815727413,combeferretxt,brand,0.6581,0,9152,3887,7,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815726116,lonhro,brand,0.6609,0,11924,18095,6,0.862,fav_number_high & text_n_urls_low & uploaded_image -> human
+815722327,hulk4477,brand,0.668,0,4834,16,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815734524,McJerkyface,brand,0.6754,0,769,1806,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815734799,johnxiethor,brand,0.6617,0,109261,0,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815721305,HealthItCaucus,brand,1.0,0,16856,0,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815734343,ruthHotReviewTV,brand,1.0,1,164890,0,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815733200,Camswr_erf,brand,1.0,0,193463,0,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815733468,StockExpert3,brand,1.0,0,3393,390,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815722235,teamstersonline,brand,1.0,0,58749,0,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815721511,RepublicanDojo,brand,1.0,0,15132,0,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815734090,ShortAndCrunch,brand,1.0,0,726,20,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815734078,novandogiantino,brand,1.0,0,310,1,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815729284,Punkbusinesstv,brand,1.0,0,10436,6,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815733327,Ilusional_COD,brand,1.0,0,41,4,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815729653,ljgrover22,brand,1.0,0,3697,1172,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815729346,_yanwari,brand,0.6536,0,11105,34618,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815722160,sigmacoder,brand,0.6497,0,3220,984,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815729597,CrimsonLCC,brand,0.658,0,2664,368,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815733433,gatorschomp1019,brand,1.0,0,358,299,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815733718,poor2016,brand,1.0,0,1150,8,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815733673,FarpointToys,brand,0.6692,0,716,18,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815734827,triggzyy,brand,0.3408,0,3955,2400,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815733644,byZayys,brand,1.0,0,6056,2534,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815736177,Tetsuo9999,brand,0.6621,0,6138,2123,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815728897,toyremedy,brand,1.0,0,15602,2,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815719798,MiwanakamuraEBS,brand,0.6616,0,74613,0,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815720014,DJ_UnDisTone,brand,0.6571,0,3284,56,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815719907,flotsamfiles,brand,0.6394,0,16006,142,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815737811,HotCamera2020,brand,1.0,0,295191,2,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815727261,dBlackHiPPyfan,brand,0.6735,0,24477,22,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815738165,Londonengland_a,brand,0.6652,0,56815,0,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815727217,lynx_3053,brand,0.6802,0,762,8,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815738207,NewsOnFire0,brand,1.0,0,87451,0,4,0.861,desc_len_low & has_description & uploaded_image -> human
+815737122,musicinfuse,brand,1.0,0,141085,62,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815727210,haineystuart,brand,0.6506,0,1511,171,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815726298,Koran_Inggris,brand,1.0,0,873619,0,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815738456,Based1UP,brand,0.6516,0,1888,1375,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815738725,FilAEK,brand,0.6578,0,358,58,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815719664,Bstbookpromos,brand,1.0,0,57113,0,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815727013,FollowingjobCom,brand,1.0,0,18233,0,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815737365,AUSCITY_Forums,brand,1.0,0,179156,0,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815737004,Milena_mico,brand,0.3423,0,15979,3785,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815725197,TradersStream,brand,0.6577,0,140204,0,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815736106,bestofgemini_,brand,0.6612,0,5242,0,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815721074,livin_the_life5,brand,0.6637,0,310,1,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815720897,bulexmagazine,brand,1.0,0,165950,31,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815735409,shad_rahman_,brand,0.3559,0,973,118,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815735627,YO_SOY_DR,brand,1.0,0,107491,1,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815735994,Wins2011,brand,1.0,0,29531,0,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815736026,TakiingFliights,brand,0.6717,0,1896,21,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815733042,apocfilms,brand,1.0,0,122,15,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815720156,rockandpink4u,brand,0.6683,0,1765,15,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815736297,MagPromo,brand,1.0,0,13345,0,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815720373,almawari,brand,0.3358,0,1730,304,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815725754,K1LLz_,brand,0.369,0,17492,2597,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815736474,ThreeGymnopedie,brand,0.3447,0,195,938,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815725823,real_x_medium,brand,0.6706,0,224396,6,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815736972,TheLatsbrah,brand,0.6455,0,1193,48,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815722434,X9_DP_71,brand,1.0,0,36250,0,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815734724,QeenWoodes,brand,1.0,0,350117,2,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815723188,DY_IO_23,brand,1.0,0,35977,0,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815723163,E9_UP_K8,brand,1.0,0,36858,0,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815722970,MathPowerPoints,brand,0.6349,0,17189,39,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815730882,eros9911,brand,0.3321,0,139614,0,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815730551,thebigbrother9,brand,1.0,0,246,2,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815731898,GLassdezignz,brand,1.0,0,278221,10,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815731719,greysbot,brand,1.0,0,13996,36,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815723674,ISUPK_OREGON,brand,1.0,0,755,0,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815722995,C_S__,brand,0.6613,0,45757,781,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815723952,mom2yahoos,brand,0.3571,0,431,10,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815722721,leahanneta,brand,1.0,0,176495,0,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815731002,Backspacebills,brand,1.0,0,1024,35,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815732641,sollen5252,brand,1.0,0,6603,1,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815732432,SHU10c,brand,0.6569,0,6608,1,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815732884,_Meio_Ambiente,brand,0.6634,0,5592,0,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815732647,icanttt,brand,0.6835,0,2793,94,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815731140,ImWryz,brand,0.6475,0,12228,39694,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815729856,whatsontvuk,brand,1.0,0,14840,166,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815724408,keystomarketing,brand,1.0,0,37641,0,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815731801,MRJJIZZLE,brand,0.677,0,27366,3,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815730718,HOLLISESTES,brand,1.0,0,249397,0,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815722928,KenyaCrazyMedia,brand,1.0,0,36909,0,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815729716,E_BPR,brand,0.6852,0,9429,0,2,0.861,desc_len_low & has_description & uploaded_image -> human
+815729003,voxnovo,brand,1.0,0,13656,309,1,0.857,desc_len_low & has_description -> human
+815731938,Gerrisol,brand,0.6601,0,319,92,1,0.857,desc_len_low & has_description -> human
+815724955,TheEscapistMag,brand,1.0,0,29552,515,2,0.854,has_location & text_len_low & uploaded_image -> human
+815719687,GreekCimPromo,brand,0.6708,0,4294,68,4,0.854,has_location & text_len_low & uploaded_image -> human
+815720374,TheOffer,brand,1.0,0,1340,489,4,0.854,has_location & text_len_low & uploaded_image -> human
+815724178,CCBDeal,brand,1.0,0,180422,254,2,0.854,custom_link_colour & text_len_low -> human
+815734110,Noles247,brand,1.0,0,35275,7,4,0.854,has_location & text_len_low & uploaded_image -> human
+815736379,MS_Focus,brand,1.0,0,4578,559,4,0.854,has_location & text_len_low & uploaded_image -> human
+815728139,JacksonAcura,brand,0.6561,0,1645,4,2,0.854,has_location & text_len_low & uploaded_image -> human
+815728118,DevilsTerrace,brand,1.0,0,71659,3195,2,0.854,custom_link_colour & text_len_low -> human
+815729250,ETAhand2mind,brand,1.0,0,5663,153,4,0.854,has_location & text_len_low & uploaded_image -> human
+815738522,No1PaydayLoans,brand,1.0,0,175208,0,2,0.854,has_location & text_len_low & uploaded_image -> human
+815732483,CliathAthaBaile,brand,0.6509,0,2306,696,4,0.854,has_location & text_len_low & uploaded_image -> human
+815724815,russellshih,brand,0.6595,0,27752,8,4,0.854,has_location & text_len_low & uploaded_image -> human
+815735891,kalpeshh1,brand,0.3435,0,1001,132,2,0.854,has_location & text_len_low & uploaded_image -> human
+815725486,c0l5hy69,brand,0.6678,0,5624,695,2,0.854,has_location & text_len_low & uploaded_image -> human
+815734530,RadioColegial,brand,1.0,0,3820,63,4,0.854,has_location & text_len_low & uploaded_image -> human
+815728509,thepiperhull,brand,1.0,0,512,57,2,0.854,has_location & text_len_low & uploaded_image -> human
+815720721,VFNorthampton,brand,1.0,0,1646,0,2,0.854,has_location & text_len_low & uploaded_image -> human
+815735393,TENCH0U_,brand,0.6772,0,1105,130,4,0.854,has_location & text_len_low & uploaded_image -> human
+815732095,ThaiLash_News,brand,0.6754,0,152851,10,2,0.854,has_location & text_len_low & uploaded_image -> human
+815726734,AllPetDogs,brand,1.0,0,11857,1,4,0.854,has_location & text_len_low & uploaded_image -> human
+815735546,bsgcoins,brand,1.0,0,39164,10,4,0.854,has_location & text_len_low & uploaded_image -> human
+815735172,ProlanceNG,brand,1.0,0,15440,0,2,0.854,has_location & text_len_low & uploaded_image -> human
+815732207,BencaliMusic,brand,1.0,0,14631,2,2,0.854,has_location & text_len_low & uploaded_image -> human
+815720548,ConnectAU1,brand,0.6527,0,68,8,4,0.854,has_location & text_len_low & uploaded_image -> human
+815732230,AmazingFaaacts,brand,1.0,0,14868,5,4,0.854,has_location & text_len_low & uploaded_image -> human
+815726792,itsisabelldiaz,brand,0.6759,0,15619,420,4,0.854,has_location & text_len_low & uploaded_image -> human
+815734931,PharmSpc,brand,1.0,0,754,283,2,0.854,has_location & text_len_low & uploaded_image -> human
+815732030,GEAROTC,brand,1.0,0,4712,0,2,0.854,has_location & text_len_low & uploaded_image -> human
+815734800,NAmerBearCenter,brand,1.0,0,310,1,4,0.854,has_location & text_len_low & uploaded_image -> human
+815725283,Eating4Energy,brand,0.6509,0,96156,0,2,0.854,has_location & text_len_low & uploaded_image -> human
+815734767,6ONE9CLOTHING,brand,1.0,0,721,214,2,0.854,has_location & text_len_low & uploaded_image -> human
+815730700,MusicaMasMusic1,brand,1.0,0,4064,2,2,0.854,has_location & text_len_low & uploaded_image -> human
+815719437,RamTechVCU,brand,1.0,0,822,554,2,0.854,custom_link_colour & text_len_low -> human
+815734593,IndigoPinkTees,brand,0.6619,0,34943,516,4,0.854,has_location & text_len_low & uploaded_image -> human
+815720346,HogwartsCitou,brand,0.6768,0,6051,1463,4,0.854,has_location & text_len_low & uploaded_image -> human
+815730699,CannaworxInc,brand,1.0,0,4728,0,4,0.854,has_location & text_len_low & uploaded_image -> human
+815732541,tweetandfollows,brand,0.6727,0,96,51,2,0.854,has_location & text_len_low & uploaded_image -> human
+815732674,SeasideSignal,brand,1.0,0,2440,0,4,0.854,has_location & text_len_low & uploaded_image -> human
+815727682,juhasaarinen,brand,0.665,0,141057,888,4,0.854,has_location & text_len_low & uploaded_image -> human
+815728468,FTVLive,brand,1.0,0,19265,495,4,0.854,has_location & text_len_low & uploaded_image -> human
+815722062,XSTROLOGY,brand,1.0,0,169830,942,2,0.854,has_location & text_len_low & uploaded_image -> human
+815729826,VentureBoxing,brand,1.0,0,748,7,2,0.854,has_location & text_len_low & uploaded_image -> human
+815723479,CallBoys4Rent_,brand,0.6867,0,39931,44,4,0.854,has_location & text_len_low & uploaded_image -> human
+815731390,jaklumen,brand,0.6697,0,19721,1653,2,0.854,custom_link_colour & text_len_low -> human
+815722733,unlockboot,brand,1.0,0,4131,100,2,0.854,custom_link_colour & text_len_low -> human
+815737150,BancroftFeldman,brand,1.0,0,1277,0,2,0.854,has_location & text_len_low & uploaded_image -> human
+815732814,BigBlackDonaghy,brand,1.0,0,2312,3,2,0.854,has_location & text_len_low & uploaded_image -> human
+815732825,Defend_Israel,brand,1.0,0,1781,48,4,0.854,has_location & text_len_low & uploaded_image -> human
+815722694,04_11_08,brand,1.0,0,3444,39,2,0.854,custom_link_colour & text_len_low -> human
+815726077,Egyptouring,brand,1.0,0,35494,0,4,0.854,has_location & text_len_low & uploaded_image -> human
+815719314,WonderRhythm,brand,0.6629,0,7110,58,2,0.854,has_location & text_len_low & uploaded_image -> human
+815726099,TennisAcademy01,brand,1.0,0,3902,56,4,0.854,has_location & text_len_low & uploaded_image -> human
+815737463,Abbsewing,brand,1.0,0,4083,8,4,0.854,has_location & text_len_low & uploaded_image -> human
+815722272,FoComcfc,brand,1.0,0,1898,24,2,0.854,has_location & text_len_low & uploaded_image -> human
+815723552,WaXPorno,brand,1.0,0,1537,0,2,0.854,custom_link_colour & text_len_low -> human
+815719275,HighTechPlanet,brand,1.0,0,54795,11,2,0.854,custom_link_colour & text_len_low -> human
+815722537,OurCommonRoots,brand,1.0,0,482,6,4,0.854,has_location & text_len_low & uploaded_image -> human
+815731152,OverDriveLibs,brand,1.0,0,19534,2086,4,0.854,has_location & text_len_low & uploaded_image -> human
+815726248,PetConciergePls,brand,0.6471,0,114,9,4,0.854,has_location & text_len_low & uploaded_image -> human
+815730496,kneedough,brand,0.6666,0,23998,152,2,0.854,custom_link_colour & text_len_low -> human
+815724173,The_Dude_Razor,brand,1.0,0,571,193,4,0.854,has_location & text_len_low & uploaded_image -> human
+815721699,MetalFortressCT,brand,1.0,0,24346,1410,4,0.854,has_location & text_len_low & uploaded_image -> human
+815726446,HalleyConsults,brand,1.0,0,1920,61,4,0.854,has_location & text_len_low & uploaded_image -> human
+815721782,Adel_Chamber,brand,0.6741,0,5,0,2,0.854,has_location & text_len_low & uploaded_image -> human
+815736537,RadioJinWest,brand,1.0,0,271928,143,4,0.854,has_location & text_len_low & uploaded_image -> human
+815729441,GAINGrantham,brand,1.0,0,11249,0,4,0.854,has_location & text_len_low & uploaded_image -> human
+815732625,thecbgazette,brand,1.0,0,2156,0,4,0.854,has_location & text_len_low & uploaded_image -> human
+815723372,MissMBelieber,brand,0.6654,0,24161,859,4,0.854,has_location & text_len_low & uploaded_image -> human
+815719352,AussiBodySecret,brand,0.6666,0,93933,0,2,0.854,has_location & text_len_low & uploaded_image -> human
+815739318,GBISummerSchool,brand,1.0,0,945,186,2,0.854,has_location & text_len_low & uploaded_image -> human
+815724744,RPi31,brand,0.6602,0,121760,0,4,0.854,has_location & text_len_low & uploaded_image -> human
+815719400,WarOnTheRocks,brand,1.0,0,22203,862,4,0.854,has_location & text_len_low & uploaded_image -> human
+815730860,bostoneventgirl,brand,1.0,0,3436,761,4,0.854,has_location & text_len_low & uploaded_image -> human
+815734788,SDtechsupport,brand,1.0,0,13691,0,1,0.853,has_location & text_len_low -> human
+815725796,27349stwd,female,0.3357,0,74065,0,30,0.846,default_image & text_len_low & tweets_per_day_high -> non_human
+815729075,04768lktc,male,0.3494,0,74667,0,30,0.846,default_image & text_len_low & tweets_per_day_high -> non_human
+815729436,mission_yabana,male,0.3474,0,4436,210,11,0.846,default_image & text_len_low & tweets_per_day_high -> non_human
+815724853,01808gnlb,female,0.3374,0,40171,0,24,0.846,default_image & text_len_low & tweets_per_day_high -> non_human
+815728354,07199jcsc,female,0.3444,0,75454,0,30,0.846,default_image & text_len_low & tweets_per_day_high -> non_human
+815726441,dcgblog,female,0.6889,0,3962,0,5,0.841,default_image & favs_per_day_low & text_len_low -> non_human
+815724858,missaquarius20c,female,0.3502,0,5,0,16,0.841,default_image & favs_per_day_low & text_len_low -> non_human
+815736007,vegandogs50,male,1.0,0,5903,5,8,0.841,default_image & favs_per_day_low & text_len_low -> non_human
+815733156,lisalisa2123,female,0.6732,0,63491,0,16,0.841,default_image & favs_per_day_low & text_len_low -> non_human
+815730102,Miles_Smith98,male,0.6692,0,56,2,16,0.841,default_image & favs_per_day_low & text_len_low -> non_human
+815728973,karaokequeen85,female,0.6736,0,60323,2,8,0.841,default_image & favs_per_day_low & text_len_low -> non_human
+815738500,conandoyle5,male,0.6365,0,70910,0,11,0.84,default_image & text_n_urls_low & tweets_per_day_high -> non_human
+815723276,sassysam8,male,0.3397,0,36385,28970,2,0.84,default_image & text_n_urls_low & tweets_per_day_high -> non_human
+815738619,elizasoberano11,female,0.356,0,37280,0,13,0.84,default_image & text_n_urls_low & tweets_per_day_high -> non_human
+815738862,Unite24Lq,female,0.647,0,38462,7,11,0.84,default_image & text_n_urls_low & tweets_per_day_high -> non_human
+815735555,cocococcooonan,male,0.3467,0,71026,0,13,0.84,default_image & text_n_urls_low & tweets_per_day_high -> non_human
+815733854,kolaaakatsuo,male,0.3709,0,71022,0,13,0.84,default_image & text_n_urls_low & tweets_per_day_high -> non_human
+815720698,Dscin_9510,female,0.6441,0,129,5,11,0.839,default_image & location_missing & text_len_low -> non_human
+815737729,durtgeek,male,0.6626,0,110080,0,4,0.839,default_image & favs_per_day_low & tweets_per_day_high -> non_human
+815730222,pweekes48,male,0.3489,0,267,54,5,0.839,default_image & location_missing & text_len_low -> non_human
+815727296,Eddki885Mohamm,male,0.6837,0,37955,0,9,0.839,default_image & favs_per_day_low & tweets_per_day_high -> non_human
+815735245,khalidrafiq141,male,0.683,0,204976,0,6,0.839,default_image & favs_per_day_low & tweets_per_day_high -> non_human
+815729926,904139Lynn,female,1.0,0,10,6,11,0.839,default_image & location_missing & text_len_low -> non_human
+815736819,lindamo12895437,female,0.6659,0,11662,9414,4,0.836,default_image & link_default & text_len_low -> non_human
+815719575,HaileyW22810137,female,1.0,0,112457,0,5,0.827,favs_per_day_low & text_len_low & tweets_per_day_high -> non_human
+815739501,GrayRanier,male,1.0,0,553681,1,3,0.827,favs_per_day_low & text_len_low & tweets_per_day_high -> non_human
+815722469,justicecw,female,1.0,0,153643,38,1,0.827,favs_per_day_low & text_len_low & tweets_per_day_high -> non_human
+815734426,JessieJane_21,female,1.0,0,31937,0,5,0.827,favs_per_day_low & text_len_low & tweets_per_day_high -> non_human
+815726467,GladysBryan10,female,1.0,0,113340,0,5,0.827,favs_per_day_low & text_len_low & tweets_per_day_high -> non_human
+815721324,anneissassy,female,1.0,0,40680,0,4,0.827,favs_per_day_low & text_len_low & tweets_per_day_high -> non_human
+815726011,MiersSavannah1,female,1.0,0,72349,0,5,0.827,favs_per_day_low & text_len_low & tweets_per_day_high -> non_human
+815722127,anthropobiology,male,0.6741,0,48000,0,3,0.827,favs_per_day_low & text_len_low & tweets_per_day_high -> non_human
+815730952,JulianTaft1,female,1.0,0,112150,0,5,0.827,favs_per_day_low & text_len_low & tweets_per_day_high -> non_human
+815727641,listentomusic69,male,0.6725,0,295795,8,3,0.827,favs_per_day_low & text_len_low & tweets_per_day_high -> non_human
+815731443,no1skylinefan,male,1.0,0,553394,2,4,0.827,favs_per_day_low & text_len_low & tweets_per_day_high -> non_human
+815721258,HerrinAlison,female,1.0,0,9439,0,4,0.827,favs_per_day_low & text_len_low & tweets_per_day_high -> non_human
+815733514,CatT15978042,female,1.0,0,555202,7,4,0.827,favs_per_day_low & text_len_low & tweets_per_day_high -> non_human
+815728084,AbramsonAlexand,female,1.0,0,112999,0,5,0.827,favs_per_day_low & text_len_low & tweets_per_day_high -> non_human
+815731836,kcbdjp_kthnl26,female,0.6631,0,6871,0,4,0.827,favs_per_day_low & text_len_low & tweets_per_day_high -> non_human
+815734011,tydrizzyy,male,1.0,0,230797,1,2,0.827,favs_per_day_low & text_len_low & tweets_per_day_high -> non_human
+815726294,CarterGilbert1,female,1.0,0,80489,0,5,0.827,favs_per_day_low & text_len_low & tweets_per_day_high -> non_human
+815727015,40WANDARuby3,female,1.0,0,9406,0,3,0.827,favs_per_day_low & text_len_low & tweets_per_day_high -> non_human
+815723179,trapking_P4L,male,0.6667,0,25102,2,6,0.827,favs_per_day_low & text_len_low & tweets_per_day_high -> non_human
+815723914,khcsportsman85,male,0.6839,0,258286,0,2,0.827,favs_per_day_low & text_len_low & tweets_per_day_high -> non_human
+815735970,KaligianReba,female,1.0,0,13097,0,4,0.827,favs_per_day_low & text_len_low & tweets_per_day_high -> non_human
+815722008,RosalynAlberts1,female,1.0,0,209289,0,6,0.827,favs_per_day_low & text_len_low & tweets_per_day_high -> non_human
+815727095,RLSELFMADEBOSS,male,1.0,0,404903,15,1,0.827,favs_per_day_low & text_len_low & tweets_per_day_high -> non_human
+815719584,SharonMichaelso,female,1.0,0,112323,0,5,0.827,favs_per_day_low & text_len_low & tweets_per_day_high -> non_human
+815735270,FreemanXavier1,female,0.6735,0,113055,0,5,0.827,favs_per_day_low & text_len_low & tweets_per_day_high -> non_human
+815720641,TF2SoldierBot,male,0.6804,0,62781,0,4,0.827,favs_per_day_low & text_len_low & tweets_per_day_high -> non_human
+815719598,cintaselalu21,female,0.6769,0,12071,0,5,0.827,favs_per_day_low & text_len_low & tweets_per_day_high -> non_human
+815721169,ZappaJuanita,female,1.0,0,14397,0,4,0.827,favs_per_day_low & text_len_low & tweets_per_day_high -> non_human
+815735790,fhatsz123,female,1.0,0,1014,0,3,0.827,favs_per_day_low & text_len_low & tweets_per_day_high -> non_human
+815719680,DysonAmanda1,female,1.0,0,94955,0,5,0.827,favs_per_day_low & text_len_low & tweets_per_day_high -> non_human
+815723890,toristeam,female,0.6778,0,137245,1,2,0.824,fav_number_low & text_len_low & tweets_per_day_high -> non_human
+815728337,LustyPoison,male,0.6503,0,64,5,1,0.824,fav_number_low & text_len_low & tweets_per_day_high -> non_human
+815736852,lodretti,male,0.6669,0,261,1,1,0.824,fav_number_low & text_len_low & tweets_per_day_high -> non_human
+815732702,WingMayra,female,0.6589,0,21248,8,1,0.824,fav_number_low & text_len_low & tweets_per_day_high -> non_human
+815727402,fuxxkking,male,0.6637,0,10810,2,1,0.824,fav_number_low & text_len_low & tweets_per_day_high -> non_human
+815726799,Moam_x,male,0.6903,0,8359,8,1,0.824,fav_number_low & text_len_low & tweets_per_day_high -> non_human
+815720452,Copypasteadscom,female,0.6698,0,100353,7,2,0.824,fav_number_low & text_len_low & tweets_per_day_high -> non_human
+815731663,JulietCohenn,female,0.6682,0,3,0,3,0.816,default_image & favs_per_day_low & text_n_urls_low -> non_human
+815737377,drichards1302,male,1.0,0,44,0,3,0.816,default_image & favs_per_day_low & text_n_urls_low -> non_human
+815729703,sazzemcsazz,female,1.0,0,3,0,3,0.816,default_image & favs_per_day_low & text_n_urls_low -> non_human
+815733076,YoshinoPaula,female,1.0,0,415,0,3,0.816,default_image & favs_per_day_low & text_n_urls_low -> non_human
+815729575,HyltonSandra,female,1.0,0,1,0,3,0.816,default_image & favs_per_day_low & text_n_urls_low -> non_human
+815725947,BARBARASCULLY2,female,1.0,0,23,0,3,0.816,default_image & favs_per_day_low & text_n_urls_low -> non_human
+815726977,bose_58,female,1.0,0,27,1,3,0.816,default_image & favs_per_day_low & text_n_urls_low -> non_human
+815733511,cmcbvc,female,0.6752,0,316,0,3,0.816,default_image & favs_per_day_low & text_n_urls_low -> non_human
+815730308,Lovey180,male,0.6572,0,46,3,3,0.816,default_image & favs_per_day_low & text_n_urls_low -> non_human
+815719976,JaneDoe023,female,1.0,0,8,0,3,0.816,default_image & favs_per_day_low & text_n_urls_low -> non_human
+815733414,bjoduke,female,1.0,0,77,3,3,0.816,default_image & favs_per_day_low & text_n_urls_low -> non_human
+815720082,JohnJohndel2,male,0.6859,0,3563,0,3,0.816,default_image & favs_per_day_low & text_n_urls_low -> non_human
+815732958,PeterBrassard,male,1.0,0,450,6,2,0.816,default_image & favs_per_day_low & text_n_urls_low -> non_human
+815732949,Fishsweets,male,1.0,0,2551,1,3,0.816,default_image & favs_per_day_low & text_n_urls_low -> non_human
+815719316,NotNuttyKarl,female,0.6691,0,1342,0,3,0.816,default_image & favs_per_day_low & text_n_urls_low -> non_human
+815736791,yourssssss,male,0.6613,0,15419,4,3,0.816,default_image & favs_per_day_low & text_n_urls_low -> non_human
+815729767,Lockedinbathroo,male,0.6848,0,3,0,2,0.816,default_image & favs_per_day_low & text_n_urls_low -> non_human
+815731357,chantalldelport,female,0.6677,0,1,0,3,0.816,default_image & favs_per_day_low & text_n_urls_low -> non_human
+815728495,Cribone,male,1.0,0,133,0,3,0.816,default_image & favs_per_day_low & text_n_urls_low -> non_human
+815730692,BigTittieFreak,male,0.3432,0,58,1,3,0.816,default_image & favs_per_day_low & text_n_urls_low -> non_human
+815738631,laulet,male,0.683,0,8,0,3,0.816,default_image & favs_per_day_low & text_n_urls_low -> non_human
+815729946,N2fotoTed,male,0.675,0,1,0,3,0.816,default_image & favs_per_day_low & text_n_urls_low -> non_human
+815732050,JuliaGreenwald7,female,1.0,0,20,0,3,0.816,default_image & favs_per_day_low & text_n_urls_low -> non_human
+815723711,niceindieman,male,0.6795,0,4521,0,3,0.816,default_image & favs_per_day_low & text_n_urls_low -> non_human
+815723018,cathytofine,female,1.0,1,16,2,3,0.816,default_image & favs_per_day_low & text_n_urls_low -> non_human
+815732426,Biscuit33br,male,1.0,0,2,0,3,0.816,default_image & favs_per_day_low & text_n_urls_low -> non_human
+815721540,raabulls,male,0.3498,0,152,8,3,0.816,default_image & favs_per_day_low & text_n_urls_low -> non_human
+815733691,applepiejacob,female,0.3421,0,60562,98574,1,0.812,desc_missing & text_len_low & tweets_per_day_high -> non_human
+815724277,Theonly__Mama,female,1.0,0,6254,452,1,0.812,desc_missing & text_len_low & tweets_per_day_high -> non_human
+815737139,chikabess1,female,1.0,0,26491,7539,1,0.812,desc_missing & text_len_low & tweets_per_day_high -> non_human
+815737249,4cSamanthaMumba,female,1.0,0,61666,7566,1,0.812,desc_missing & text_len_low & tweets_per_day_high -> non_human
+815722703,robinlynnemabin,female,1.0,0,137340,2292,1,0.812,desc_missing & text_len_low & tweets_per_day_high -> non_human
+815728313,ladylalax33,female,1.0,0,55976,7817,1,0.812,desc_missing & text_len_low & tweets_per_day_high -> non_human
+815724304,KenYeBlessed,male,1.0,0,71373,2531,1,0.812,desc_missing & text_len_low & tweets_per_day_high -> non_human
+815738551,mallareeeep,female,1.0,0,60955,31101,1,0.812,desc_missing & text_len_low & tweets_per_day_high -> non_human
+815735874,WhoTierraIs__,female,1.0,0,86368,3549,1,0.812,desc_missing & text_len_low & tweets_per_day_high -> non_human
+815729950,Deajuahh,female,1.0,0,60863,14988,1,0.812,desc_missing & text_len_low & tweets_per_day_high -> non_human
+815722465,tiredjinki,male,1.0,0,15357,1094,1,0.812,desc_missing & text_len_low & tweets_per_day_high -> non_human
+815727295,D3khna,male,1.0,0,3282,5118,1,0.812,desc_missing & text_len_low & tweets_per_day_high -> non_human
+815739532,WakeTechIntegra,male,1.0,0,63117,30,1,0.812,desc_missing & text_len_low & tweets_per_day_high -> non_human
+815720097,James004James,male,1.0,0,8009,5191,1,0.812,desc_missing & text_len_low & tweets_per_day_high -> non_human
+815719385,_paassiioonn,female,1.0,0,90271,404,1,0.812,desc_missing & text_len_low & tweets_per_day_high -> non_human
+815733710,DarkestHeart_,female,1.0,0,77853,177,1,0.812,desc_missing & text_len_low & tweets_per_day_high -> non_human
+815736629,BoyThatsNy,female,1.0,0,85308,367,1,0.812,desc_missing & text_len_low & tweets_per_day_high -> non_human
+815729207,wrzodk,male,1.0,0,142834,7463,1,0.812,desc_missing & text_len_low & tweets_per_day_high -> non_human
+815729835,arrlleennee1,female,1.0,0,24592,2416,1,0.812,desc_missing & text_len_low & tweets_per_day_high -> non_human
+815734047,mrkclum,female,1.0,0,93451,13897,1,0.812,desc_missing & text_len_low & tweets_per_day_high -> non_human
+815724759,fkntroye,male,1.0,0,35829,12144,1,0.812,desc_missing & text_len_low & tweets_per_day_high -> non_human
+815724123,Munsroe,male,0.3384,0,116003,984,1,0.812,desc_missing & text_len_low & tweets_per_day_high -> non_human
+815722784,bossci__,female,1.0,0,92908,14047,1,0.812,desc_missing & text_len_low & tweets_per_day_high -> non_human
+815734307,chinajane97,female,1.0,0,129854,81857,1,0.812,desc_missing & text_len_low & tweets_per_day_high -> non_human
+815721480,moodforlcve,male,0.6582,0,7173,1980,1,0.812,desc_missing & text_len_low & tweets_per_day_high -> non_human
+815731023,Ryan_1438,male,1.0,0,101,2,2,0.81,default_image & fav_number_low & text_n_urls_low -> non_human
+815719951,robert_stock7,male,0.6617,0,5154,12,2,0.81,default_image & fav_number_low & text_n_urls_low -> non_human
+815739049,Big_Mammoth06,male,1.0,0,3,0,2,0.801,favs_per_day_low & location_missing & text_len_low -> non_human
+815719819,blankyhanky16,male,0.6742,0,742,1,2,0.801,favs_per_day_low & location_missing & text_len_low -> non_human
+815719823,blankyhanky2,male,0.6923,0,745,1,2,0.801,favs_per_day_low & location_missing & text_len_low -> non_human
+815738399,enichols168,male,0.6466,0,114,104,1,0.801,default_image & location_missing & text_n_urls_low -> non_human
+815738368,SiedVan_Riel,male,1.0,0,6353,1,2,0.801,desc_missing & favs_per_day_low & text_len_low -> non_human
+815719739,ogreen32,male,1.0,0,33057,0,1,0.801,desc_missing & favs_per_day_low & text_len_low -> non_human
+815719816,blankyhanky21,male,1.0,0,740,1,3,0.801,desc_missing & favs_per_day_low & text_len_low -> non_human
+815719769,blankyhanky9,male,0.6631,0,748,1,3,0.801,desc_missing & favs_per_day_low & text_len_low -> non_human
+815739061,shobowaletemida,male,1.0,0,467,1,2,0.801,desc_missing & favs_per_day_low & text_len_low -> non_human
+815739163,dellybelly2011,female,1.0,0,490,4,2,0.801,desc_missing & favs_per_day_low & text_len_low -> non_human
+815719766,Cafferine,female,1.0,0,4178,24,1,0.801,desc_missing & favs_per_day_low & text_len_low -> non_human
+815727228,IPinsheKory,male,1.0,0,13,0,2,0.801,favs_per_day_low & location_missing & text_len_low -> non_human
+815739265,psych403,male,0.6645,0,2425,19130,1,0.801,default_image & location_missing & text_n_urls_low -> non_human
+815726341,OluIsaacTayo,male,1.0,0,6584,4,1,0.801,favs_per_day_low & location_missing & text_len_low -> non_human
+815719467,Y2k87_,male,1.0,0,24,3,1,0.801,favs_per_day_low & location_missing & text_len_low -> non_human
+815719338,buomar94,male,1.0,0,52,3,2,0.801,favs_per_day_low & location_missing & text_len_low -> non_human
+815722534,sypozybopyt,female,1.0,0,1462,0,2,0.801,favs_per_day_low & location_missing & text_len_low -> non_human
+815719829,blankyhanky12,male,1.0,0,746,1,2,0.801,favs_per_day_low & location_missing & text_len_low -> non_human
+815721358,11thEarl,male,1.0,0,2435,35,1,0.801,favs_per_day_low & location_missing & text_len_low -> non_human
+815720439,GardnerBetty2,female,1.0,0,11340,0,3,0.801,desc_missing & favs_per_day_low & text_len_low -> non_human
+815728364,StylesDiana145,female,0.6654,0,31,35,1,0.801,default_image & location_missing & text_n_urls_low -> non_human
+815719844,blankyhanky,female,0.6931,0,929,1,2,0.801,favs_per_day_low & location_missing & text_len_low -> non_human
+815720595,kurasamesgrave,female,0.676,0,3618,0,2,0.801,favs_per_day_low & location_missing & text_len_low -> non_human
+815735418,AdeWijayaa,male,1.0,0,4314,4,1,0.801,desc_missing & favs_per_day_low & text_len_low -> non_human
+815735274,_KingMir_,male,1.0,0,43067,0,2,0.801,desc_missing & favs_per_day_low & text_len_low -> non_human
+815728719,SnowLover78,male,0.6801,0,1399,199,1,0.801,default_image & location_missing & text_n_urls_low -> non_human
+815728833,Larry63333,male,1.0,0,1346,720,1,0.801,default_image & location_missing & text_n_urls_low -> non_human
+815721227,RedneckHQ,male,1.0,0,56693,0,1,0.801,favs_per_day_low & location_missing & text_len_low -> non_human
+815723030,thomasjones9000,male,1.0,0,10935,11,1,0.801,desc_missing & favs_per_day_low & text_len_low -> non_human
+815734474,fayemonstaah,female,0.3485,0,574,0,1,0.801,desc_missing & favs_per_day_low & text_len_low -> non_human
+815724831,samsonofsam,male,1.0,0,11795,11136,1,0.801,default_image & location_missing & text_n_urls_low -> non_human
+815721459,Aranel91,male,0.6825,0,32,2,3,0.801,desc_missing & favs_per_day_low & text_len_low -> non_human
+815725720,BoBUFORD,male,0.6766,0,85,4,3,0.801,desc_missing & favs_per_day_low & text_len_low -> non_human
+815729228,Harrymyprince_1,female,1.0,0,13,2,3,0.801,desc_missing & favs_per_day_low & text_len_low -> non_human
+815722950,BenoistDaily,female,0.6764,0,72,0,1,0.801,favs_per_day_low & location_missing & text_len_low -> non_human
+815729407,tomweb06,male,1.0,0,372,11,1,0.801,favs_per_day_low & location_missing & text_len_low -> non_human
+815721927,MarinaVotyakova,female,1.0,0,1239,10,1,0.801,desc_missing & favs_per_day_low & text_len_low -> non_human
+815732627,britmishelle,female,1.0,0,13898,7,1,0.801,desc_missing & favs_per_day_low & text_len_low -> non_human
+815721992,fygulikemuxu,female,1.0,0,1527,0,2,0.801,favs_per_day_low & location_missing & text_len_low -> non_human
+815722028,leopozos,male,1.0,0,602,13,2,0.801,desc_missing & favs_per_day_low & text_len_low -> non_human
+815722120,MNI_Dee,female,1.0,0,47,17,1,0.801,favs_per_day_low & location_missing & text_len_low -> non_human
+815733441,shewcyout,female,1.0,0,33,2,2,0.801,desc_missing & favs_per_day_low & text_len_low -> non_human
+815722238,ricecracker,female,1.0,0,3,0,1,0.801,favs_per_day_low & location_missing & text_len_low -> non_human
+815722244,Chelsea8Riley,female,1.0,0,102,18,2,0.801,favs_per_day_low & location_missing & text_len_low -> non_human
+815733165,slouise_louise,female,1.0,0,4658,2992,1,0.801,default_image & location_missing & text_n_urls_low -> non_human
+815736048,GagandeepJethi,male,1.0,0,47,7,3,0.801,desc_missing & favs_per_day_low & text_len_low -> non_human
+815728456,tomduff1990,male,1.0,0,325,25,1,0.801,favs_per_day_low & location_missing & text_len_low -> non_human
+815728205,cityguyusa,male,1.0,0,19559,18,1,0.801,desc_missing & favs_per_day_low & text_len_low -> non_human
+815730120,kiitten04,female,0.6797,0,3322,0,2,0.801,desc_missing & favs_per_day_low & text_len_low -> non_human
+815726175,maxi_chad,male,1.0,0,10907,0,2,0.801,desc_missing & favs_per_day_low & text_len_low -> non_human
+815730414,seagull1973,female,0.6707,0,4251,659,1,0.801,default_image & location_missing & text_n_urls_low -> non_human
+815731230,johnegolf,male,0.6737,0,4950,8,2,0.801,favs_per_day_low & location_missing & text_len_low -> non_human
+815720071,IncitatusSwift,male,0.3503,0,2217,3,3,0.801,desc_missing & favs_per_day_low & text_len_low -> non_human
+815727592,elzuhieri,male,0.6774,0,262,0,2,0.801,desc_missing & favs_per_day_low & text_len_low -> non_human
+815731377,queen_sisi_,female,1.0,0,9,2,3,0.801,desc_missing & favs_per_day_low & text_len_low -> non_human
+815736888,DUKEYEAH,male,1.0,0,3,0,3,0.801,desc_missing & favs_per_day_low & text_len_low -> non_human
+815736880,VegMilitaryWife,female,0.6768,0,166,20,1,0.801,desc_missing & favs_per_day_low & text_len_low -> non_human
+815720238,craigsmithim,male,1.0,0,11905,0,2,0.801,favs_per_day_low & location_missing & text_len_low -> non_human
+815736792,MattyPar23,female,0.6739,0,292,202,1,0.801,default_image & location_missing & text_n_urls_low -> non_human
+815736739,alexinfernukua,male,1.0,0,379,1803,1,0.801,default_image & location_missing & text_n_urls_low -> non_human
+815723381,maliki_loven,male,1.0,0,6917,0,2,0.801,desc_missing & favs_per_day_low & text_len_low -> non_human
+815723237,MohammadNeshat,male,1.0,0,3,2,3,0.801,desc_missing & favs_per_day_low & text_len_low -> non_human
+815736636,DanteNevante,male,0.6684,0,27427,0,3,0.801,desc_missing & favs_per_day_low & text_len_low -> non_human
+815731877,GIULIANODONNARU,male,1.0,0,7,2,2,0.801,desc_missing & favs_per_day_low & text_len_low -> non_human
+815723362,BenWarrener,male,1.0,0,39,49,1,0.801,default_image & location_missing & text_n_urls_low -> non_human
+815720309,izzyortiz211,male,1.0,0,1,0,3,0.801,desc_missing & favs_per_day_low & text_len_low -> non_human
+815725740,crayonx3,female,1.0,0,333,19,2,0.801,favs_per_day_low & location_missing & text_len_low -> non_human
+815725753,PrasadSebas,male,1.0,0,4,4,2,0.801,favs_per_day_low & location_missing & text_len_low -> non_human
+815723269,DJMikeMoore86,male,1.0,0,193,5,2,0.801,desc_missing & favs_per_day_low & text_len_low -> non_human
+815722007,MarcStevenPhoto,male,1.0,0,31,0,1,0.8,favs_per_day_low & text_len_low & timezone_missing -> non_human
+815726967,44LETHARosa9,female,0.6691,0,7644,0,1,0.8,favs_per_day_low & text_len_low & timezone_missing -> non_human
+815723643,imjustalive,male,1.0,0,158,0,1,0.8,favs_per_day_low & text_len_low & timezone_missing -> non_human
+815727231,Rich_west,male,1.0,0,39332,34,1,0.8,favs_per_day_low & text_len_low & timezone_missing -> non_human
+815720458,dayveedomooba,male,1.0,0,1882,18,1,0.8,favs_per_day_low & text_len_low & timezone_missing -> non_human
+815721255,Giannalynnxxx,female,1.0,0,18,0,1,0.8,favs_per_day_low & text_len_low & timezone_missing -> non_human
+815734682,tashitathegreat,female,1.0,0,1289,28,1,0.8,favs_per_day_low & text_len_low & timezone_missing -> non_human
+815724704,OnCapsRight,male,0.6866,0,3,0,1,0.8,favs_per_day_low & text_len_low & timezone_missing -> non_human
+815737079,Rejuvinateshop,female,1.0,0,3752,3,1,0.8,favs_per_day_low & text_len_low & timezone_missing -> non_human
+815735233,Aethelwhyne,female,1.0,0,18,0,1,0.8,favs_per_day_low & text_len_low & timezone_missing -> non_human
+815729301,HeIsGeoff,male,1.0,0,14039,1,1,0.8,favs_per_day_low & text_len_low & timezone_missing -> non_human
+815724056,Nunuluquish,male,0.6708,0,3461,3,1,0.8,favs_per_day_low & text_len_low & timezone_missing -> non_human
+815727903,92CYNTHIAPiper4,female,1.0,0,8172,0,1,0.8,favs_per_day_low & text_len_low & timezone_missing -> non_human
+815731767,I_am_emak,female,1.0,0,76,6,1,0.8,favs_per_day_low & text_len_low & timezone_missing -> non_human
