@@ -1,15 +1,17 @@
 # CSCI446/946 Big Data Analytics - Assignment 2
-# Data preprocessing: clean the raw data and prepare each data type for the models
-
+# 02 - Data preprocessing: fix the problems found in 01_eda.py
 import html
 import re
 from pathlib import Path
 
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
+from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
 
 pd.set_option("display.width", 200)
+pd.set_option("display.max_columns", 30)
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "raw" / "twitter_user_data.csv"
@@ -123,6 +125,7 @@ df = pd.concat([df, zones], axis=1)
 
 
 # 10. numeric: log1p for the right-skewed counts, then standardise
+# both scales are kept - the raw values for interpretation, the _z values for the models
 LOG_COLS = ["fav_number", "tweet_count", "tweets_per_day", "favs_per_day"]
 NUM_COLS = LOG_COLS + ["account_age_days", "text_len", "desc_len", "text_n_urls",
                        "text_n_mentions", "text_n_hashtags", "name_n_digits",
@@ -140,5 +143,69 @@ FLAG_COLS = ["desc_missing", "desc_has_url", "text_has_emoji", "default_image", 
 df = df[ID_COLS + TEXT_COLS + NUM_COLS + FLAG_COLS + list(zones.columns) + [c + "_z" for c in NUM_COLS]]
 
 print("clean:", df.shape)
-print(df[[c + "_z" for c in NUM_COLS]].describe().round(2).T)
 df.to_csv(OUT, index=False)
+
+# 12. exploratory analysis of the cleaned data: class balance and feature summary
+print("is_human:\n", df["is_human"].value_counts(dropna=False))
+print(df[NUM_COLS].describe().round(2).T)
+print("skew before and after the log transform:")
+print(pd.DataFrame({"raw": df[LOG_COLS].skew(), "log1p": np.log1p(df[LOG_COLS]).skew()}).round(2))
+
+df["is_human"].map({1: "human", 0: "non-human"}).fillna("unknown").value_counts().plot.bar()
+plt.ylabel("records")
+plt.show()
+
+
+# 13. correlation between the model features, to find redundant pairs
+Z_COLS = [c + "_z" for c in NUM_COLS]
+corr = df[Z_COLS].corr()
+print(corr.round(2))
+
+fig, ax = plt.subplots(figsize=(9, 8))
+image = ax.imshow(corr, cmap="coolwarm", vmin=-1, vmax=1)
+ax.set_xticks(range(len(NUM_COLS)), NUM_COLS, rotation=90)
+ax.set_yticks(range(len(NUM_COLS)), NUM_COLS)
+fig.colorbar(image)
+plt.title("correlation between the standardised features")
+plt.tight_layout()
+plt.show()
+
+pairs = corr.abs().where(np.triu(np.ones(corr.shape), k=1).astype(bool)).stack()
+print("pairs correlated above 0.7:\n", pairs[pairs > 0.7].sort_values(ascending=False))
+
+
+# 14. distribution of every feature after the transformations
+fig, axes = plt.subplots(4, 5, figsize=(16, 10))
+for ax, col in zip(axes.ravel(), NUM_COLS):
+    ax.hist(df[col + "_z"], bins=40)
+    ax.set_title(col, fontsize=9)
+for ax in axes.ravel()[len(NUM_COLS):]:
+    ax.axis("off")
+plt.tight_layout()
+plt.show()
+
+
+# 15. how the features separate human from non-human profiles
+labelled = df[df["is_human"].notna()]
+print("median by label:\n", labelled.groupby("is_human")[NUM_COLS].median().round(2).T)
+print("flag rate by label:\n", labelled.groupby("is_human")[FLAG_COLS].mean().round(3).T)
+
+labelled.boxplot(column=["tweet_count", "fav_number", "account_age_days"],
+                 by="is_human", figsize=(11, 4))
+plt.yscale("log")
+plt.show()
+
+fig, axes = plt.subplots(1, 3, figsize=(12, 3.5))
+for ax, col in zip(axes, ["link_r", "link_g", "link_b"]):
+    for value, name in [(1, "human"), (0, "non-human")]:
+        ax.hist(labelled.loc[labelled["is_human"] == value, col], bins=30, alpha=0.5, label=name)
+    ax.set_title(col)
+axes[0].legend()
+plt.tight_layout()
+plt.show()
+
+# most common words in the cleaned descriptions, by label
+words = labelled["desc_clean"].str.findall(r"[a-z]{3,}")
+for value, name in [(1, "human"), (0, "non-human")]:
+    counts = pd.Series(words[labelled["is_human"] == value].sum())
+    print(name, counts[~counts.isin(ENGLISH_STOP_WORDS)].value_counts().head(20).to_dict())
