@@ -1,5 +1,6 @@
 # CSCI446/946 Big Data Analytics - Assignment 2
-# 02 - Data preprocessing: fix the problems found in 01_eda.py
+# 02 - Data preprocessing: fix the problems found in 01_eda.py, engineer one feature
+# matrix from the different data types, split it, then explore the cleaned data.
 
 import html
 import re
@@ -18,15 +19,22 @@ from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
 
 pd.set_option("display.width", 200)
 pd.set_option("display.max_columns", 30)
+pd.set_option("display.max_columns", 30)
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "raw" / "twitter_user_data.csv"
 PROC = ROOT / "data" / "processed"
 DATE_FORMAT = "%m/%d/%y %H:%M"
-SEED = 7
+SEED = 7                    # one seed for every split in the project, as in Lab 3
 
 
 def repair_text(s):
+    # read_csv already handles the file being Mac Roman, but the text inside it was
+    # decoded wrongly once before the file was ever saved: UTF-8 bytes were read as
+    # Windows-1252, turning one character into two or three. Those characters are now
+    # genuinely what the file contains, so no choice of read encoding undoes it.
+    # Re-encoding to cp1252 and decoding as UTF-8 reverses it where the whole field
+    # round-trips; fields that also carry emoji remnants cannot be and are stripped.
     if not isinstance(s, str):
         return ""
     try:
@@ -152,6 +160,8 @@ print("clean:", df.shape)
 
 
 # 12. split the labelled records into training, validation and test sets.
+# The unknown-gender records have no label to split on, so they appear only in the full
+# file - they are the records the models later score for a possible mislabelling.
 labelled = df[df["is_human"].notna()]
 trn, rest = train_test_split(labelled, test_size=.4, random_state=SEED,
                              stratify=labelled["is_human"])
@@ -164,7 +174,10 @@ print("class balance:\n", pd.DataFrame({"train": trn["is_human"].value_counts(no
 
 
 # 13. the numeric transform: log1p the skewed counts, then standardise.
-# The pipeline is fitted on the training split only
+# The pipeline is fitted on the training split only - the mean and standard deviation
+# StandardScaler learns must not be taken from data the models are evaluated on.
+# The binary features are left at 0/1: standardising a dummy is not meaningful, and
+# Apriori in the association rule step needs them as they are.
 prep = Pipeline([
     ("log", ColumnTransformer([("log1p", FunctionTransformer(np.log1p), LOG_COLS)],
                               remainder="passthrough")),
@@ -174,12 +187,15 @@ prep.fit(trn[NUM_COLS])
 
 
 def prepare(part, keep_text=False):
+    # apply the fitted pipeline and put the identifiers and binary features back
     scaled = pd.DataFrame(prep.transform(part[NUM_COLS]), columns=SCALED_COLS, index=part.index)
     keep = ID_COLS + TEXT_COLS + LOG_COLS if keep_text else ID_COLS
     return pd.concat([part[keep], scaled, part[BIN_COLS]], axis=1)
 
 
 # 14. write the four files
+# the full file keeps the text and the raw counts as well, because the clustering,
+# association rule and text processing steps read them back for interpretation
 full = prepare(df, keep_text=True)
 full.to_csv(PROC / "twitter_full.csv", index=False)
 for name, part in [("train", trn), ("validation", val), ("test", tst)]:
@@ -202,6 +218,7 @@ plt.show()
 
 
 # 16. correlation between the numeric features, to find redundant pairs
+# (correlation is unaffected by standardising, so it can be read off the scaled columns)
 corr = full[SCALED_COLS].corr()
 print(corr.round(2))
 
