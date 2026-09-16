@@ -75,7 +75,6 @@ print("one record per account:", df.shape, "| label conflicts:", df["label_confl
 
 
 # 4. label: 1 human, 0 non-human, missing for unknown
-# the unknown records are kept: they are candidates for the mislabelling analysis
 df["is_human"] = df["gender"].map({"male": 1, "female": 1, "brand": 0})
 print(df["gender"].value_counts())
 
@@ -114,8 +113,7 @@ df["tweets_per_day"] = df["tweet_count"] / df["account_age_days"].clip(lower=1)
 df["favs_per_day"] = df["fav_number"] / df["account_age_days"].clip(lower=1)
 
 
-# 8. other profile fields as flags (retweet_count is zero for almost every record,
-# so it is kept only as a flag rather than as a count)
+# 8. other profile fields as flags
 df["default_image"] = df["profileimage"].str.contains("default_profile_images").astype(int)
 df["has_retweets"] = (df["retweet_count"] > 0).astype(int)
 df["has_coord"] = df["tweet_coord"].notna().astype(int)
