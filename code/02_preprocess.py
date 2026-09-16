@@ -1,5 +1,5 @@
 # CSCI446/946 Big Data Analytics - Assignment 2
-# Data preprocessing: clean the raw data and prepare each data type for the models
+# 02 - Data preprocessing: fix the problems found in 01_eda.py
 
 import html
 import re
@@ -7,18 +7,26 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
-from sklearn.preprocessing import StandardScaler
+import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
+from sklearn.compose import ColumnTransformer
+from sklearn.model_selection import train_test_split
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import FunctionTransformer, StandardScaler
+from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
+from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
 
 pd.set_option("display.width", 200)
+pd.set_option("display.max_columns", 30)
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "raw" / "twitter_user_data.csv"
-OUT = ROOT / "data" / "processed" / "twitter_clean.csv"
+PROC = ROOT / "data" / "processed"
 DATE_FORMAT = "%m/%d/%y %H:%M"
+SEED = 7
 
 
 def repair_text(s):
-    # undo the wrong decoding (UTF-8 read as Windows-1252, saved as Mac Roman)
     if not isinstance(s, str):
         return ""
     try:
@@ -121,24 +129,124 @@ zone[df["user_timezone"].isna()] = "Missing"
 zones = pd.get_dummies(zone, prefix="tz", dtype=int).drop(columns="tz_Missing")
 df = pd.concat([df, zones], axis=1)
 
-
-# 10. numeric: log1p for the right-skewed counts, then standardise
+# 10. assemble the feature matrix: numeric features to be scaled, binary features as they are
 LOG_COLS = ["fav_number", "tweet_count", "tweets_per_day", "favs_per_day"]
-NUM_COLS = LOG_COLS + ["account_age_days", "text_len", "desc_len", "text_n_urls",
-                       "text_n_mentions", "text_n_hashtags", "name_n_digits",
-                       "link_r", "link_g", "link_b", "sidebar_r", "sidebar_g", "sidebar_b"]
-scaled = df[NUM_COLS].copy()
-scaled[LOG_COLS] = np.log1p(scaled[LOG_COLS])
-df[[c + "_z" for c in NUM_COLS]] = StandardScaler().fit_transform(scaled)
-
-
-# 11. keep the identifiers, label, text, raw values for interpretation and the model features
-ID_COLS = ["_unit_id", "name", "gender", "gender:confidence", "label_conflict", "is_human"]
-TEXT_COLS = ["description", "text", "desc_clean", "text_clean", "link_color", "sidebar_color"]
+RAW_COLS = ["account_age_days", "text_len", "desc_len", "text_n_urls",
+            "text_n_mentions", "text_n_hashtags", "name_n_digits",
+            "link_r", "link_g", "link_b", "sidebar_r", "sidebar_g", "sidebar_b"]
+NUM_COLS = LOG_COLS + RAW_COLS
 FLAG_COLS = ["desc_missing", "desc_has_url", "text_has_emoji", "default_image", "has_retweets",
              "has_coord", "location_missing", "timezone_missing", "link_default", "sidebar_default"]
-df = df[ID_COLS + TEXT_COLS + NUM_COLS + FLAG_COLS + list(zones.columns) + [c + "_z" for c in NUM_COLS]]
+BIN_COLS = FLAG_COLS + list(zones.columns)
+# names of the numeric columns once the pipeline has logged the skewed counts
+SCALED_COLS = [c + "_log" for c in LOG_COLS] + RAW_COLS
 
+
+# 11. keep the identifiers, label, text and the features
+ID_COLS = ["_unit_id", "name", "gender", "gender:confidence", "label_conflict", "is_human"]
+TEXT_COLS = ["description", "text", "desc_clean", "text_clean", "link_color", "sidebar_color"]
+df = df[ID_COLS + TEXT_COLS + NUM_COLS + BIN_COLS]
 print("clean:", df.shape)
-print(df[[c + "_z" for c in NUM_COLS]].describe().round(2).T)
-df.to_csv(OUT, index=False)
+
+
+# 12. split the labelled records into training, validation and test sets.
+labelled = df[df["is_human"].notna()]
+trn, rest = train_test_split(labelled, test_size=.4, random_state=SEED,
+                             stratify=labelled["is_human"])
+val, tst = train_test_split(rest, test_size=.5, random_state=SEED,
+                            stratify=rest["is_human"])
+print("train:", trn.shape, "validation:", val.shape, "test:", tst.shape)
+print("class balance:\n", pd.DataFrame({"train": trn["is_human"].value_counts(normalize=True),
+                                        "validation": val["is_human"].value_counts(normalize=True),
+                                        "test": tst["is_human"].value_counts(normalize=True)}).round(3))
+
+
+# 13. the numeric transform: log1p the skewed counts, then standardise.
+# The pipeline is fitted on the training split only
+prep = Pipeline([
+    ("log", ColumnTransformer([("log1p", FunctionTransformer(np.log1p), LOG_COLS)],
+                              remainder="passthrough")),
+    ("scale", StandardScaler()),
+])
+prep.fit(trn[NUM_COLS])
+
+
+def prepare(part, keep_text=False):
+    scaled = pd.DataFrame(prep.transform(part[NUM_COLS]), columns=SCALED_COLS, index=part.index)
+    keep = ID_COLS + TEXT_COLS + LOG_COLS if keep_text else ID_COLS
+    return pd.concat([part[keep], scaled, part[BIN_COLS]], axis=1)
+
+
+# 14. write the four files
+full = prepare(df, keep_text=True)
+full.to_csv(PROC / "twitter_full.csv", index=False)
+for name, part in [("train", trn), ("validation", val), ("test", tst)]:
+    out = prepare(part)
+    out.to_csv(PROC / ("twitter_" + name + ".csv"), index=False)
+    print(name, out.shape)
+print("full:", full.shape)
+print("features:", SCALED_COLS + BIN_COLS)
+
+
+# 15. exploratory analysis of the cleaned data: class balance and feature summary
+print("is_human:\n", df["is_human"].value_counts(dropna=False))
+print(df[NUM_COLS].describe().round(2).T)
+print("skew before and after the log transform:")
+print(pd.DataFrame({"raw": df[LOG_COLS].skew(), "log1p": np.log1p(df[LOG_COLS]).skew()}).round(2))
+
+df["is_human"].map({1: "human", 0: "non-human"}).fillna("unknown").value_counts().plot.bar()
+plt.ylabel("records")
+plt.show()
+
+
+# 16. correlation between the numeric features, to find redundant pairs
+corr = full[SCALED_COLS].corr()
+print(corr.round(2))
+
+fig, ax = plt.subplots(figsize=(9, 8))
+image = ax.imshow(corr, cmap="coolwarm", vmin=-1, vmax=1)
+ax.set_xticks(range(len(SCALED_COLS)), SCALED_COLS, rotation=90)
+ax.set_yticks(range(len(SCALED_COLS)), SCALED_COLS)
+fig.colorbar(image)
+plt.title("correlation between the numeric features")
+plt.tight_layout()
+plt.show()
+
+pairs = corr.abs().where(np.triu(np.ones(corr.shape), k=1).astype(bool)).stack()
+print("pairs correlated above 0.7:\n", pairs[pairs > 0.7].sort_values(ascending=False))
+
+
+# 17. distribution of every numeric feature after the log transform and standardising
+fig, axes = plt.subplots(4, 5, figsize=(16, 10))
+for ax, col in zip(axes.ravel(), SCALED_COLS):
+    ax.hist(full[col], bins=40)
+    ax.set_title(col, fontsize=9)
+for ax in axes.ravel()[len(SCALED_COLS):]:
+    ax.axis("off")
+plt.tight_layout()
+plt.show()
+
+
+# 18. how the features separate human from non-human profiles
+print("median by label:\n", labelled.groupby("is_human")[NUM_COLS].median().round(2).T)
+print("flag rate by label:\n", labelled.groupby("is_human")[FLAG_COLS].mean().round(3).T)
+
+labelled.boxplot(column=["tweet_count", "fav_number", "account_age_days"],
+                 by="is_human", figsize=(11, 4))
+plt.yscale("log")
+plt.show()
+
+fig, axes = plt.subplots(1, 3, figsize=(12, 3.5))
+for ax, col in zip(axes, ["link_r", "link_g", "link_b"]):
+    for value, name in [(1, "human"), (0, "non-human")]:
+        ax.hist(labelled.loc[labelled["is_human"] == value, col], bins=30, alpha=0.5, label=name)
+    ax.set_title(col)
+axes[0].legend()
+plt.tight_layout()
+plt.show()
+
+# most common words in the cleaned descriptions, by label
+words = labelled["desc_clean"].str.findall(r"[a-z]{3,}")
+for value, name in [(1, "human"), (0, "non-human")]:
+    counts = pd.Series(words[labelled["is_human"] == value].sum())
+    print(name, counts[~counts.isin(ENGLISH_STOP_WORDS)].value_counts().head(20).to_dict())
