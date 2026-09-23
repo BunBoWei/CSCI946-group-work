@@ -321,6 +321,25 @@ plt.show()
 # too broad to judge a single profile: even the most one-sided of them is 19% human. Once
 # clusters are found, each can be given the label most of its members have - a cluster that
 # nearly all agrees on one label is then used to question members that carry the other one
+# the number of finer clusters and the two purity cut-offs are choices, so check how many
+# profiles each combination would flag before fixing them
+sweep = []
+for k in [8, 10, 12, 14, 16]:
+    km = KMeans(n_clusters=k, n_init=10, random_state=SEED)
+    km.fit(X)
+    groups = pd.Series(km.predict(X), index=df.index)
+    rate = truth.groupby(groups[labelled]).agg("mean")
+    for pure_h, pure_nh in [(0.85, 0.35), (0.85, 0.30), (0.90, 0.30), (0.90, 0.20)]:
+        says = groups.map(pd.Series(np.where(rate >= pure_h, 1,
+                                             np.where(rate <= pure_nh, 0, np.nan)), index=rate.index))
+        hit = labelled & says.notna() & (says != df["is_human"])
+        sweep.append({"k": k, "cut-offs": str(pure_h) + " / " + str(pure_nh),
+                      "flagged": int(hit.sum())})
+print("\nprofiles flagged for each k and purity cut-offs (human / non-human):")
+print(pd.DataFrame(sweep).pivot(index="k", columns="cut-offs", values="flagged"))
+# k=12 flags the same 279 profiles under every cut-off, the other k values move between
+# about 200 and 950, so k=12 is used and the result does not rest on the exact cut-off
+
 fine = KMeans(n_clusters=K_FINE, n_init=10, random_state=SEED)
 fine.fit(X)
 df["fine_cluster"] = fine.predict(X)
@@ -342,6 +361,10 @@ cluster_says = suspect.map({"human": 1, "non_human": 0})
 flagged = df[cluster_says.notna() & (cluster_says != df["is_human"])].copy()
 flagged["cluster_says"] = suspect[flagged.index]
 flagged["cluster_human_rate"] = flagged["fine_cluster"].map(rate["human_rate"]).round(3)
+# shared output format: says = what the cluster suggests, score = how pure that cluster is
+flagged["says"] = flagged["cluster_says"]
+flagged["score"] = np.where(flagged["says"] == "human", flagged["cluster_human_rate"],
+                            1 - flagged["cluster_human_rate"]).round(3)
 # the Euclidean distance from the profile to its cluster centroid: a small distance means it
 # is a typical member of a cluster that disagrees with its label, so the flag is harder to dismiss
 flagged["distance_to_centre"] = np.linalg.norm(
@@ -396,12 +419,12 @@ print(unlabelled["suggested"].value_counts(dropna=False))
 # 14. write the three lists out for the report.
 # The flagged list is sorted so the most one-sided cluster comes first, and inside a cluster
 # the profiles closest to its centroid come first
-KEEP = ["_unit_id", "name", "gender", "gender:confidence", "cluster", "fine_cluster",
-        "cluster_says", "cluster_human_rate", "distance_to_centre"]
+KEEP = ["_unit_id", "says", "score", "name", "gender", "gender:confidence", "cluster",
+        "fine_cluster", "cluster_human_rate", "distance_to_centre"]
 if "also_by_rules" in flagged:
     KEEP.append("also_by_rules")
 flagged = flagged.sort_values(["cluster_human_rate", "distance_to_centre"])
-flagged[KEEP].to_csv(OUT / "cluster_flagged.csv", index=False)
+flagged[KEEP].to_csv(OUT / "clustering_flagged.csv", index=False)
 
 suggestions = unlabelled[unlabelled["suggested"].notna()]
 suggestions[["_unit_id", "name", "cluster", "fine_cluster", "cluster_human_rate",
@@ -411,5 +434,5 @@ df[["_unit_id", "name", "gender", "is_human", "cluster", "fine_cluster"]].to_csv
     OUT / "cluster_assignments.csv", index=False)
 print("\nwritten:", [f.name for f in sorted(OUT.glob("cluster*.csv"))])
 print("\nclearest candidates (typical members of clusters that disagree with their label):")
-print(flagged.head(10)[["name", "gender", "gender:confidence", "cluster_says",
+print(flagged.head(10)[["name", "gender", "gender:confidence", "says",
                         "cluster_human_rate", "distance_to_centre"]])
