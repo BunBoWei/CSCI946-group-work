@@ -25,6 +25,10 @@ PROC = ROOT / "data" / "processed"
 DATE_FORMAT = "%m/%d/%y %H:%M"
 SEED = 7
 
+# the target every model predicts
+TARGET = "is_human"          # 1 = human (male/female), 0 = non-human (brand), NaN = unknown
+LABEL = "label"              # "human" / "non_human" / "unknown"
+
 
 def repair_text(s):
     if not isinstance(s, str):
@@ -75,8 +79,10 @@ print("one record per account:", df.shape, "| label conflicts:", df["label_confl
 
 
 # 4. label: 1 human, 0 non-human, missing for unknown
-df["is_human"] = df["gender"].map({"male": 1, "female": 1, "brand": 0})
-print(df["gender"].value_counts())
+df[TARGET] = df["gender"].map({"male": 1, "female": 1, "brand": 0})
+df[LABEL] = df[TARGET].map({1: "human", 0: "non_human"}).fillna("unknown")
+print("gender ->", TARGET)
+print(pd.crosstab(df["gender"], df[LABEL]))
 
 
 # 5. text: repair, cleaned words, and counts
@@ -143,18 +149,18 @@ SCALED_COLS = [c + "_log" for c in LOG_COLS] + RAW_COLS
 
 
 # 11. keep the identifiers, label, text and the features
-ID_COLS = ["_unit_id", "name", "gender", "gender:confidence", "label_conflict", "is_human"]
+ID_COLS = ["_unit_id", TARGET, LABEL, "name", "gender", "gender:confidence", "label_conflict"]
 TEXT_COLS = ["description", "text", "desc_clean", "text_clean", "link_color", "sidebar_color"]
 df = df[ID_COLS + TEXT_COLS + NUM_COLS + BIN_COLS]
 print("clean:", df.shape)
 
 
 # 12. split the labelled records into training, validation and test sets.
-labelled = df[df["is_human"].notna()]
+labelled = df[df[TARGET].notna()]
 trn, rest = train_test_split(labelled, test_size=.4, random_state=SEED,
-                             stratify=labelled["is_human"])
+                             stratify=labelled[TARGET])
 val, tst = train_test_split(rest, test_size=.5, random_state=SEED,
-                            stratify=rest["is_human"])
+                            stratify=rest[TARGET])
 print("train:", trn.shape, "validation:", val.shape, "test:", tst.shape)
 print("class balance:\n", pd.DataFrame({"train": trn["is_human"].value_counts(normalize=True),
                                         "validation": val["is_human"].value_counts(normalize=True),
@@ -186,6 +192,7 @@ for name, part in [("train", trn), ("validation", val), ("test", tst)]:
     print(name, out.shape)
 print("full:", full.shape)
 print("features:", SCALED_COLS + BIN_COLS)
+print("target:", TARGET, "- 1 human, 0 non-human, blank unknown", repr(LABEL))
 
 
 # 15. exploratory analysis of the cleaned data: class balance and feature summary

@@ -1,0 +1,654 @@
+rule,says,support,confidence,lift
+default_image & text_len_low & tweets_per_day_high,non_human,0.06048624098316858,0.8460388639760836,2.925649914876645
+default_image & favs_per_day_low & text_len_low,non_human,0.06091370558375635,0.84070796460177,2.90721536539581
+default_image & text_n_urls_low & tweets_per_day_high,non_human,0.06134117018434411,0.8397951719092905,2.904058876992308
+default_image & favs_per_day_low & tweets_per_day_high,non_human,0.061715201709858405,0.8387799564270153,2.9005482048284534
+default_image & location_missing & text_len_low,non_human,0.060860272508682874,0.8387334315169367,2.900387319076029
+default_image & location_missing & tweets_per_day_high,non_human,0.06203580016029923,0.8382671480144405,2.898774884532567
+default_image & fav_number_low & text_len_low,non_human,0.06091370558375635,0.838235294117647,2.8986647319681746
+default_image & text_len_low & text_n_urls_low,non_human,0.06080683943360941,0.8373804267844004,2.8957085527106528
+default_image & link_default & tweets_per_day_high,non_human,0.062196099385519635,0.8362068965517241,2.8916504192471386
+default_image & sidebar_default & tweets_per_day_high,non_human,0.062196099385519635,0.8362068965517241,2.8916504192471386
+default_image & link_default & text_len_low,non_human,0.06102057173390329,0.83601756954612,2.8909957158269837
+default_image & text_len_low & timezone_missing,non_human,0.058829815655890995,0.835990888382688,2.8909034508651152
+default_image & fav_number_low & tweets_per_day_high,non_human,0.062089233235372694,0.8359712230215828,2.8908354469417814
+default_image & sidebar_default & text_len_low,non_human,0.06091370558375635,0.8357771260997067,2.890164248883224
+default_image & text_len_low,non_human,0.06102057173390329,0.8354059985369423,2.888880868924404
+default_image & tweets_per_day_high,non_human,0.06224953246059311,0.8351254480286738,2.887910709507877
+default_image & timezone_missing & tweets_per_day_high,non_human,0.05979161100721347,0.8350746268656717,2.8877349670715162
+default_image & desc_len_low & text_len_low,non_human,0.05316590969810313,0.8319397993311036,2.8768945573691065
+default_image & desc_missing & text_len_low,non_human,0.053112476623029654,0.8317991631799163,2.876408229658561
+default_image & desc_missing & tweets_per_day_high,non_human,0.054448303499866416,0.8311582381729201,2.874191874982668
+default_image & desc_len_low & tweets_per_day_high,non_human,0.054448303499866416,0.8304808475957619,2.87184942031683
+favs_per_day_low & text_len_low & tweets_per_day_high,non_human,0.06251669783596046,0.8274398868458275,2.8613336072283184
+fav_number_low & text_len_low & tweets_per_day_high,non_human,0.0626235639861074,0.8241912798874823,2.85009974188733
+default_image & favs_per_day_low & text_n_urls_low,non_human,0.06224953246059311,0.815826330532213,2.8211732771453004
+desc_missing & text_len_low & tweets_per_day_high,non_human,0.05370024044883783,0.8117932148626816,2.8072265366140217
+default_image & fav_number_low & text_n_urls_low,non_human,0.06278386321132781,0.8097863542384562,2.8002866998471374
+desc_missing & favs_per_day_low & text_len_low,non_human,0.054448303499866416,0.8011006289308177,2.770250973843358
+favs_per_day_low & location_missing & text_len_low,non_human,0.06363879241250334,0.8009414929388029,2.769700672644068
+default_image & location_missing & text_n_urls_low,non_human,0.06294416243654823,0.8008157715839564,2.7692659211370554
+favs_per_day_low & text_len_low & timezone_missing,non_human,0.061180870959123695,0.8001397624039134,2.7669282434200366
+default_image & favs_per_day_low & location_missing,non_human,0.06460058776382581,0.7996031746031746,2.7650726926641562
+desc_missing & fav_number_low & text_len_low,non_human,0.054555169650013356,0.7982799061767005,2.760496756115475
+default_image & favs_per_day_low & link_default,non_human,0.0649746192893401,0.7952910398953564,2.7501610886255716
+default_image & favs_per_day_low & sidebar_default,non_human,0.06492118621426664,0.7951570680628273,2.749697806503291
+default_image & favs_per_day_low & timezone_missing,non_human,0.062302965535666575,0.794819359236537,2.748529990412378
+default_image & fav_number_low & location_missing,non_human,0.06518835158963399,0.7942708333333334,2.746633157027593
+default_image & fav_number_low & favs_per_day_low,non_human,0.06518835158963399,0.7937540663630449,2.7448461478167747
+default_image & text_n_urls_low & timezone_missing,non_human,0.06075340635853593,0.7934403349616189,2.7437612470078894
+desc_len_low & favs_per_day_low & text_len_low,non_human,0.0546620358001603,0.7924089852827266,2.7401947818858514
+default_image & favs_per_day_low,non_human,0.06524178466470745,0.7923426346528228,2.7399653376806317
+default_image & desc_missing & text_n_urls_low,non_human,0.05498263425060112,0.7921478060046188,2.7392916092713304
+default_image & link_default & text_n_urls_low,non_human,0.06326476088698904,0.7919732441471571,2.7386879645628315
+favs_per_day_low & sidebar_default & text_len_low,non_human,0.06417312316323805,0.7916941331575478,2.737722783082688
+default_image & sidebar_default & text_n_urls_low,non_human,0.06310446166176864,0.7915549597855229,2.7372415137446526
+default_image & desc_missing & favs_per_day_low,non_human,0.056799358803099116,0.7915115413253909,2.7370913702706376
+default_image & desc_len_low & text_n_urls_low,non_human,0.05503606732567459,0.7910906298003073,2.735635834573679
+default_image & desc_len_low & favs_per_day_low,non_human,0.056799358803099116,0.7909226190476191,2.735054843953472
+favs_per_day_low & timezone_missing & tweet_count_high,non_human,0.05428800427464601,0.7906614785992218,2.734151805614271
+default_image & fav_number_low & link_default,non_human,0.0655089500400748,0.7899484536082474,2.731686125143819
+default_image & fav_number_low & sidebar_default,non_human,0.06545551696500133,0.789813023855577,2.7312178014517965
+default_image & text_n_urls_low,non_human,0.06337162703713599,0.7896138482023968,2.7305290408551097
+favs_per_day_low & link_default & text_len_low,non_human,0.06476088698904622,0.7895765472312705,2.7304000520017047
+desc_len_low & fav_number_low & text_len_low,non_human,0.05471546887523377,0.7895142636854279,2.7301846720016227
+default_image & fav_number_low & timezone_missing,non_human,0.06278386321132781,0.7891202149093351,2.728822029199595
+fav_number_low & location_missing & text_len_low,non_human,0.0636922254875768,0.7883597883597884,2.726192431476984
+default_image & fav_number_low,non_human,0.06577611541544216,0.7875879718490083,2.723523446628638
+default_image & desc_missing & fav_number_low,non_human,0.05728025647876035,0.7865003668378577,2.7197624474077062
+default_image & desc_len_low & fav_number_low,non_human,0.05728025647876035,0.7853479853479853,2.7157774474847645
+fav_number_low & text_len_low & timezone_missing,non_human,0.06150146940956452,0.7845944103612814,2.713171542851327
+default_image & location_missing & sidebar_default,non_human,0.06556238311514828,0.7825255102040817,2.706017169894565
+default_image & link_default & location_missing,non_human,0.0655089500400748,0.782386726228462,2.7055372471111725
+desc_len_low & text_len_low & tweets_per_day_high,non_human,0.053967405824205186,0.7823392718822619,2.705373147316432
+default_image & location_missing & timezone_missing,non_human,0.06289072936147476,0.7815405046480745,2.7026109653526817
+fav_number_low & favs_per_day_low & text_len_low,non_human,0.06647074539139727,0.7814070351758794,2.7021494204206546
+default_image & location_missing,non_human,0.0658829815655891,0.7813688212927756,2.7020172746663516
+fav_number_low & link_default & text_len_low,non_human,0.06486775313919316,0.7807073954983922,2.699730027116114
+fav_number_low & sidebar_default & text_len_low,non_human,0.06438685546353193,0.780440414507772,2.6988067918538343
+favs_per_day_low & text_len_low & text_n_urls_low,non_human,0.0644402885386054,0.7780645161290323,2.690590801802446
+fav_number_low & text_len_low & text_n_urls_low,non_human,0.06454715468875234,0.7778493238892467,2.6898466549496027
+default_image & desc_missing & location_missing,non_human,0.057600854929201174,0.7760979121670266,2.6837901748347934
+default_image & desc_len_low & location_missing,non_human,0.057600854929201174,0.7760979121670266,2.6837901748347934
+favs_per_day_low & text_n_urls_low & tweets_per_day_high,non_human,0.06540208388992787,0.7746835443037975,2.678899211316624
+default_image & desc_missing & sidebar_default,non_human,0.057600854929201174,0.7744252873563218,2.6780061442855803
+default_image & link_default & timezone_missing,non_human,0.06342506011220946,0.7742987606001304,2.6775686076554766
+default_image & sidebar_default & timezone_missing,non_human,0.06342506011220946,0.7742987606001304,2.6775686076554766
+default_image & desc_missing & link_default,non_human,0.05754742185412771,0.7742631200575125,2.6774453606571225
+text_len_low & timezone_missing & tweets_per_day_high,non_human,0.060058776382580815,0.7741046831955922,2.6768974770889704
+default_image & desc_missing & timezone_missing,non_human,0.055463531926262355,0.774049217002237,2.6767056718767304
+default_image & desc_len_low & link_default,non_human,0.057707721079348115,0.7736389684813754,2.675287009447328
+default_image & desc_len_low & sidebar_default,non_human,0.057707721079348115,0.7736389684813754,2.675287009447328
+default_image & desc_len_low & timezone_missing,non_human,0.05551696500133583,0.7730654761904763,2.6733038408914935
+default_image & desc_missing,non_human,0.05786802030456853,0.7730192719486082,2.6731440640277535
+default_image & desc_len_low & desc_missing,non_human,0.05786802030456853,0.7730192719486082,2.6731440640277535
+default_image & desc_len_low,non_human,0.05802831952978894,0.7718550106609807,2.6691179830968688
+default_image & timezone_missing,non_human,0.06358535933742987,0.7717250324254216,2.6686685110572363
+default_image & link_default,non_human,0.06657761154154422,0.7705627705627706,2.664649344250231
+default_image & sidebar_default,non_human,0.06647074539139727,0.7702786377708979,2.6636667970957784
+default_image & link_default & sidebar_default,non_human,0.06636387924125034,0.7699938003719777,2.6626818133705767
+location_missing & text_len_low & tweets_per_day_high,non_human,0.06192893401015229,0.7680583167660702,2.655988802342388
+fav_number_low & timezone_missing & tweet_count_high,non_human,0.056371894202511354,0.7672727272727273,2.653272189746691
+default_image,non_human,0.06705850921720545,0.7671149144254279,2.65272646405615
+favs_per_day_low & timezone_missing & tweets_per_day_high,non_human,0.0729361474752872,0.7642777155655096,2.642915271028919
+favs_per_day_low & location_missing & tweet_count_high,non_human,0.058829815655890995,0.7635228848821082,2.6403050241257673
+favs_per_day_low & text_len_low,non_human,0.06689820999198504,0.7629494210847044,2.6383219541020404
+fav_number_low & text_len_low,non_human,0.06705850921720545,0.7629179331306991,2.6382130669883654
+favs_per_day_low & location_missing & tweets_per_day_high,non_human,0.0756612343040342,0.7535923363491218,2.6059646294851837
+sidebar_default & text_len_low & tweets_per_day_high,non_human,0.062409831685813516,0.7520927237604637,2.600778884918159
+favs_per_day_low & sidebar_default & tweet_count_high,non_human,0.060967138658829814,0.7501643655489809,2.5941105139041345
+link_default & text_len_low & tweets_per_day_high,non_human,0.06273043013625434,0.7482472912683239,2.587481163356741
+desc_missing & favs_per_day_low & tweets_per_day_high,non_human,0.060058776382580815,0.746347941567065,2.580913105400521
+fav_number_low & location_missing & tweet_count_high,non_human,0.06064654020838899,0.7452396585686146,2.5770806005379936
+favs_per_day_low & link_default & tweet_count_high,non_human,0.06321132781191557,0.7449622166246852,2.5761211907115635
+location_missing & timezone_missing & tweet_count_high,non_human,0.05514293347582153,0.7440519105984138,2.5729733013394886
+favs_per_day_low & sidebar_default & tweets_per_day_high,non_human,0.07843975420785466,0.7436676798378927,2.5716446097867998
+favs_per_day_low & link_default & tweets_per_day_high,non_human,0.08020304568527918,0.743437345220406,2.570848099741297
+desc_len_low & favs_per_day_low & tweets_per_day_high,non_human,0.06139460325941758,0.7422480620155039,2.566735491614958
+fav_number_low & favs_per_day_low & tweet_count_high,non_human,0.0724018167245525,0.7400327689787002,2.559074883857423
+fav_number_low & text_n_urls_low & tweets_per_day_high,non_human,0.06818060379374832,0.7392815758980301,2.5564772159888456
+favs_per_day_low & tweet_count_high & tweets_per_day_high,non_human,0.06855463531926262,0.7390552995391705,2.555694739629633
+fav_number_low & favs_per_day_low & tweets_per_day_high,non_human,0.0912102591504141,0.7370466321243523,2.5487486548793887
+fav_number_low & text_n_urls_low & tweet_count_high,non_human,0.05150948437082554,0.7341964965727342,2.538892726045588
+fav_number_low & sidebar_default & tweet_count_high,non_human,0.06310446166176864,0.7335403726708075,2.5366238127372807
+fav_number_low & link_default & tweet_count_high,non_human,0.0649746192893401,0.7320891029500302,2.5316052405228775
+fav_number_low & timezone_missing & tweets_per_day_high,non_human,0.07667646273043013,0.731769505354411,2.5305000540849596
+favs_per_day_low & tweets_per_day_high,non_human,0.09233235372695699,0.7309644670050761,2.5277161862527713
+desc_missing & timezone_missing & tweets_per_day_high,non_human,0.059471012556772646,0.7284031413612565,2.5188589783030144
+fav_number_low & tweet_count_high & tweets_per_day_high,non_human,0.07047822602190756,0.7283268912203202,2.5185953010325743
+fav_number_low & location_missing & tweets_per_day_high,non_human,0.07876035265829548,0.7246804326450343,2.5059856424522944
+favs_per_day_low & tweet_count_high,non_human,0.07453913972749132,0.7242990654205608,2.5046668531681067
+fav_number_low & tweet_count_high,non_human,0.07544750200374031,0.7226202661207779,2.4988614708888317
+desc_missing & text_n_urls_low & tweets_per_day_high,non_human,0.05765428800427465,0.7222222222222222,2.497485012728915
+desc_missing & text_len_low & timezone_missing,non_human,0.05268501202244189,0.7186588921282798,2.48516281710657
+sidebar_default & timezone_missing & tweet_count_high,non_human,0.05690622495324606,0.7147651006711409,2.4716978675277903
+fav_number_low & link_default & tweets_per_day_high,non_human,0.08367619556505478,0.7144160583941606,2.470490859727774
+fav_number_low & sidebar_default & tweets_per_day_high,non_human,0.08191290408763024,0.7140195621797858,2.469119753546691
+desc_missing & fav_number_low & tweets_per_day_high,non_human,0.06257013091103393,0.7127206329884358,2.464627983440239
+desc_missing & sidebar_default & text_len_low,non_human,0.054555169650013356,0.7119944211994421,2.4621167022815147
+fav_number_low & tweets_per_day_high,non_human,0.09633983435746728,0.7112426035502959,2.459516874620064
+desc_missing & link_default & text_len_low,non_human,0.05460860272508683,0.7097222222222223,2.45425931058553
+desc_len_low & fav_number_low & tweets_per_day_high,non_human,0.06395939086294417,0.7091232227488152,2.452187936759807
+link_default & timezone_missing & tweet_count_high,non_human,0.05711995725353994,0.708416169648774,2.449742907423652
+desc_len_low & timezone_missing & tweets_per_day_high,non_human,0.06043280790809511,0.706875,2.4444134562084257
+desc_missing & location_missing & text_len_low,non_human,0.0546620358001603,0.7055172413793104,2.439718250630782
+favs_per_day_low & text_n_urls_low & timezone_missing,non_human,0.06673791076676462,0.7044557247602932,2.4360474665352707
+location_missing & timezone_missing & tweets_per_day_high,non_human,0.07379107667646273,0.7020843924758515,2.4278472662944495
+timezone_missing & tweet_count_high & tweets_per_day_high,non_human,0.05952444563184611,0.70062893081761,2.4228141981248283
+desc_missing & location_missing & tweets_per_day_high,non_human,0.06289072936147476,0.7001784651992862,2.421256462713348
+favs_per_day_low & location_missing & timezone_missing,non_human,0.07833288805770772,0.7000955109837631,2.420969602376409
+location_missing & sidebar_default & tweet_count_high,non_human,0.060058776382580815,0.6985705407085145,2.415696169504776
+desc_missing & favs_per_day_low & text_n_urls_low,non_human,0.057493988779054234,0.6982478909798832,2.414580428619459
+favs_per_day_low & location_missing & text_n_urls_low,non_human,0.06844776916911569,0.6954397394136808,2.4048696827655274
+desc_missing & sidebar_default & tweets_per_day_high,non_human,0.062302965535666575,0.6928104575163399,2.3957774782738914
+link_default & location_missing & tweet_count_high,non_human,0.060699973283462466,0.6909975669099757,2.389508400724352
+desc_missing & link_default & tweets_per_day_high,non_human,0.06224953246059311,0.6909845788849348,2.3894634874042042
+desc_missing & favs_per_day_low & timezone_missing,non_human,0.06214266631044617,0.6841176470588235,2.3657172514238507
+desc_len_low & favs_per_day_low & text_n_urls_low,non_human,0.057921453379641996,0.6809045226130653,2.3546060866044933
+desc_len_low & location_missing & tweets_per_day_high,non_human,0.0635319262623564,0.6802059496567506,2.3521903820816865
+desc_missing & tweets_per_day_high,non_human,0.06411969008816458,0.6791171477079797,2.34842524378323
+desc_len_low & desc_missing & tweets_per_day_high,non_human,0.06411969008816458,0.6791171477079797,2.34842524378323
+favs_per_day_low & link_default & timezone_missing,non_human,0.08618755009350788,0.6771620486985727,2.3416644015879133
+location_missing & sidebar_default & tweets_per_day_high,non_human,0.07908095110873631,0.6767261088248743,2.3401568970172804
+fav_number_low & favs_per_day_low & location_missing,non_human,0.09436281057974887,0.6766283524904215,2.3398188501216257
+desc_len_low & favs_per_day_low & timezone_missing,non_human,0.06326476088698904,0.6765714285714285,2.3396220040122473
+favs_per_day_low & sidebar_default & timezone_missing,non_human,0.0845311247662303,0.6754910333048677,2.335885936493089
+link_default & location_missing & tweets_per_day_high,non_human,0.07977558108469142,0.6752600633197647,2.3350872293106795
+timezone_missing & tweet_count_high,non_human,0.061608335559711465,0.6750585480093677,2.334390378047915
+fav_number_low & favs_per_day_low & timezone_missing,non_human,0.09340101522842639,0.6738627602158828,2.330255276688885
+favs_per_day_low & location_missing & sidebar_default,non_human,0.08517232166711194,0.6734262779890157,2.32874589663053
+desc_len_low & sidebar_default & tweets_per_day_high,non_human,0.06363879241250334,0.6732617297908422,2.3281768797183315
+desc_len_low & text_n_urls_low & tweets_per_day_high,non_human,0.05824205183008282,0.6728395061728394,2.3267168067303565
+favs_per_day_low & link_default & location_missing,non_human,0.08698904621960994,0.6724494010739365,2.325367801385573
+favs_per_day_low & sidebar_default & text_n_urls_low,non_human,0.0705850921720545,0.6702181633688482,2.317652056069474
+desc_len_low & link_default & tweets_per_day_high,non_human,0.0635319262623564,0.6683530073074762,2.3112022416406903
+desc_missing & text_len_low & text_n_urls_low,non_human,0.0546620358001603,0.6677545691906005,2.309132809017385
+fav_number_low & location_missing & timezone_missing,non_human,0.08185947101255678,0.6657974793568014,2.3023650824394934
+desc_missing & fav_number_low & text_n_urls_low,non_human,0.06043280790809511,0.6637323943661971,2.2952239025431225
+favs_per_day_low & location_missing,non_human,0.09543147208121827,0.6629547141796585,2.292534640774632
+fav_number_low & has_description & text_n_urls_high,non_human,0.05979161100721347,0.662914691943128,2.2923962416326016
+fav_number_low & location_missing & text_n_urls_low,non_human,0.07176061982367085,0.6622287968441815,2.290024377852708
+favs_per_day_low & link_default & text_n_urls_low,non_human,0.07181405289874432,0.6620689655172414,2.2894716721461883
+fav_number_low & text_n_urls_low & timezone_missing,non_human,0.07031792679668715,0.6596491228070176,2.2811037201281104
+desc_missing & favs_per_day_low & location_missing,non_human,0.06663104461661769,0.6590909090909091,2.2791733857421215
+fav_number_low & favs_per_day_low & sidebar_default,non_human,0.10467539406892867,0.6587088096839274,2.2778520645296934
+favs_per_day_low & timezone_missing,non_human,0.09441624365482233,0.6585911293328364,2.277445119265342
+text_len_low & text_n_urls_low & tweets_per_day_high,non_human,0.06374565856265028,0.6558548653106102,2.2679829645765093
+fav_number_low & favs_per_day_low & link_default,non_human,0.10964467005076142,0.6558005752636625,2.2677952265446124
+link_default & timezone_missing & tweets_per_day_high,non_human,0.07790542345711995,0.6552808988764045,2.2659981564064875
+location_missing & tweet_count_high & tweets_per_day_high,non_human,0.06417312316323805,0.6552100381887616,2.265753116168269
+sidebar_default & timezone_missing & tweets_per_day_high,non_human,0.07742452578145873,0.6550632911392406,2.2652456566280277
+desc_missing & favs_per_day_low & sidebar_default,non_human,0.06620358001602993,0.6541710665258712,2.262160293797428
+account_age_days_low & favs_per_day_low,non_human,0.05476890195030724,0.6541161455009572,2.26197037380828
+account_age_days_low & fav_number_low & favs_per_day_low,non_human,0.05476890195030724,0.6541161455009572,2.26197037380828
+desc_missing & fav_number_low & timezone_missing,non_human,0.06513491851456052,0.653969957081545,2.2614648460423346
+sidebar_default & tweet_count_high & tweets_per_day_high,non_human,0.06802030456852792,0.6538263995891115,2.2609684161696637
+desc_len_low & favs_per_day_low & location_missing,non_human,0.06759283996794016,0.6517259144770737,2.253704820664899
+text_n_urls_low & timezone_missing & tweets_per_day_high,non_human,0.06625701309110339,0.6505771248688352,2.2497322416704084
+desc_missing & favs_per_day_low & link_default,non_human,0.06625701309110339,0.6502359727320398,2.248552518418353
+desc_missing & text_len_low,non_human,0.05530323270104195,0.6480901690670006,2.241132208811699
+desc_len_low & desc_missing & text_len_low,non_human,0.05530323270104195,0.6480901690670006,2.241132208811699
+desc_len_low & fav_number_low & text_n_urls_low,non_human,0.060860272508682874,0.6478953356086462,2.240458463768628
+fav_number_low & favs_per_day_low & text_n_urls_low,non_human,0.07544750200374031,0.6477064220183486,2.2398051899618245
+desc_len_low & favs_per_day_low & sidebar_default,non_human,0.06764627304301363,0.6465781409601635,2.235903530685414
+fav_number_low & link_default & location_missing,non_human,0.09051562917445899,0.6465648854961833,2.235857692546391
+fav_number_low & link_default & timezone_missing,non_human,0.09062249532460594,0.6463414634146342,2.2350850864384473
+fav_number_low & location_missing & sidebar_default,non_human,0.0888592038471814,0.6460761460761462,2.234167604178691
+desc_len_low & fav_number_low & timezone_missing,non_human,0.06636387924125034,0.6451948051948052,2.2311198779048
+fav_number_low & sidebar_default & timezone_missing,non_human,0.08896606999732834,0.6438515081206496,2.2264746811673977
+desc_missing & fav_number_low & favs_per_day_low,non_human,0.0691423991450708,0.6437810945273631,2.226231187006578
+location_missing & text_n_urls_low & tweets_per_day_high,non_human,0.0682340368688218,0.6430010070493454,2.2235336006889317
+desc_len_low & text_len_low & timezone_missing,non_human,0.053005610472882714,0.6420711974110033,2.2203182667307697
+fav_number_low & sidebar_default & text_n_urls_low,non_human,0.07459257280256479,0.6418390804597701,2.2195155932750548
+desc_len_low & favs_per_day_low & link_default,non_human,0.0676997061180871,0.6411943319838056,2.2172860168286994
+fav_number_low & location_missing,non_human,0.09911835426128773,0.6407599309153713,2.2157838335331066
+link_default & tweet_count_high & tweets_per_day_high,non_human,0.0704247929468341,0.6394953905870937,2.2114109820468326
+text_len_low & tweets_per_day_high,non_human,0.06529521773978092,0.638453500522466,2.2078080676788527
+fav_number_low & link_default & text_n_urls_low,non_human,0.0756612343040342,0.6384129846708747,2.207667961588215
+favs_per_day_low & link_default & sidebar_default,non_human,0.10451509484370826,0.6377567655689599,2.2053987190730013
+favs_per_day_low & sidebar_default,non_human,0.1065989847715736,0.6367698691350143,2.2019859757689932
+desc_len_low & fav_number_low & favs_per_day_low,non_human,0.07144002137323002,0.6360608943862988,2.1995343012637805
+desc_missing & fav_number_low & location_missing,non_human,0.06978359604595244,0.6352140077821011,2.196605719815599
+desc_len_low & tweets_per_day_high,non_human,0.06609671386588298,0.6343589743589744,2.193648966209942
+favs_per_day_low & has_description & text_n_urls_high,non_human,0.061287737109270636,0.6340519624101714,2.192587301645668
+fav_number_low & timezone_missing,non_human,0.1004541811381245,0.6336366700370745,2.1911511972919158
+fav_number_low & favs_per_day_low,non_human,0.14250601122094578,0.6321403176108084,2.185976726549571
+favs_per_day_low & link_default,non_human,0.11253005610472883,0.6318631863186318,2.185018390974352
+desc_missing & favs_per_day_low,non_human,0.06946299759551162,0.6307617661329452,2.181209618103856
+desc_len_low & desc_missing & favs_per_day_low,non_human,0.06946299759551162,0.6307617661329452,2.181209618103856
+desc_len_low & sidebar_default & text_len_low,non_human,0.05487576810045418,0.6300613496932516,2.178787538711974
+timezone_missing & tweets_per_day_high,non_human,0.08495858936681806,0.6297029702970297,2.177548242629141
+desc_missing & fav_number_low & sidebar_default,non_human,0.06951643067058509,0.629414610546686,2.176551078414861
+location_missing & tweets_per_day_high,non_human,0.08602725086828747,0.6276803118908382,2.170553776244833
+desc_len_low & fav_number_low & location_missing,non_human,0.07069195832220145,0.6273115220483642,2.16927848025409
+desc_missing & fav_number_low & link_default,non_human,0.06951643067058509,0.6257816257816258,2.163988013027185
+fav_number_low & sidebar_default,non_human,0.11151482767833289,0.6244763614602035,2.15947433568509
+fav_number_low & link_default & sidebar_default,non_human,0.10943093775046754,0.624390243902439,2.159176536332991
+fav_number_low & link_default,non_human,0.11653753673523912,0.6229648671808055,2.154247503564075
+desc_len_low & link_default & text_len_low,non_human,0.05498263425060112,0.6225045372050817,2.1526556566506105
+sidebar_default & text_n_urls_low & tweets_per_day_high,non_human,0.06999732834624632,0.6220322886989553,2.151022594789532
+desc_len_low & location_missing & text_len_low,non_human,0.05503606732567459,0.6216053108026555,2.149546081240151
+fav_number_low & favs_per_day_low & has_description,non_human,0.07336361207587497,0.6215482118605704,2.1493486298910893
+desc_len_low & fav_number_low & sidebar_default,non_human,0.07101255677264226,0.6213183730715287,2.1485538344482
+desc_len_low & favs_per_day_low,non_human,0.07192091904889127,0.6202764976958526,2.1449509708754397
+sidebar_default & text_n_urls_low & tweet_count_high,non_human,0.05263157894736842,0.618330194601381,2.1382205454480494
+desc_len_low & fav_number_low & link_default,non_human,0.07101255677264226,0.6175650557620818,2.135574652362779
+fav_number_low & text_n_urls_high & uploaded_image,non_human,0.06919583222014426,0.6175488793514544,2.1355187134261766
+link_default & sidebar_default & tweet_count_high,non_human,0.06994389527117285,0.6171617161716172,2.1341798814027744
+fav_number_low & favs_per_day_low & text_n_urls_high,non_human,0.06705850921720545,0.6154977930358019,2.128425941734115
+link_default & text_n_urls_low & tweets_per_day_high,non_human,0.07079882447234838,0.6137100509495136,2.1222438291796277
+desc_missing & fav_number_low,non_human,0.07282928132514026,0.6125842696629213,2.1183508142538012
+desc_len_low & desc_missing & fav_number_low,non_human,0.07282928132514026,0.6125842696629213,2.1183508142538012
+fav_number_low & text_n_urls_high,non_human,0.07218808442425861,0.6115889542779538,2.1149089577442544
+location_missing & text_len_low & timezone_missing,non_human,0.06187550093507881,0.6110817941952507,2.113155169690339
+favs_per_day_low & text_n_urls_low,non_human,0.0765695965802832,0.6097872340425532,2.1086785079649633
+sidebar_default & tweet_count_high,non_human,0.07165375367352392,0.6095454545454546,2.1078424208828865
+fav_number_low,non_human,0.15265829548490514,0.6078723404255318,2.1020566982749127
+link_default & sidebar_default & tweets_per_day_high,non_human,0.09099652685012022,0.6073466476462196,2.1002388231151143
+fav_number_low & text_n_urls_low,non_human,0.08047021106064654,0.6045764753111201,2.090659411575686
+location_missing & tweet_count_high,non_human,0.06737910766764628,0.6045062320230106,2.0904165063397344
+fav_number_low & has_description,non_human,0.0798290141597649,0.6036363636363637,2.087408452596923
+desc_len_low & fav_number_low,non_human,0.07534063585359338,0.6033376123234917,2.086375353775711
+sidebar_default & tweets_per_day_high,non_human,0.09265295217739782,0.6022924626606462,2.082761167533997
+has_description & text_has_emoji & text_n_urls_low,human,0.0664173123163238,0.9248511904761906,1.4111030515051286
+text_has_emoji & text_n_urls_low & uploaded_image,human,0.07598183275447502,0.9245773732119636,1.410685271454582
+text_has_emoji & text_n_urls_low,human,0.07603526582954849,0.924025974025974,1.4098439673810619
+custom_sidebar_colour & text_has_emoji,human,0.0537536735239113,0.9220898258478459,1.4068898655423479
+custom_sidebar_colour & text_has_emoji & uploaded_image,human,0.0537536735239113,0.9220898258478459,1.4068898655423479
+custom_link_colour & text_has_emoji,human,0.051188885920384716,0.9220404234841193,1.4068144892797403
+custom_link_colour & text_has_emoji & uploaded_image,human,0.051188885920384716,0.9220404234841193,1.4068144892797403
+text_has_emoji & uploaded_image,human,0.09281325140261822,0.9089481946624803,1.3868388605175543
+has_description & text_has_emoji & uploaded_image,human,0.08175260486240983,0.9085510688836105,1.386232940987834
+text_has_emoji,human,0.0928666844776917,0.90852064819655,1.3861865262512991
+has_description & text_has_emoji,human,0.08175260486240983,0.9080118694362017,1.3854102508151407
+fav_number_high & text_len_low,human,0.06037937483302164,0.8982511923688393,1.3705177780191447
+fav_number_high & text_len_low & uploaded_image,human,0.06032594175794817,0.8981702466189339,1.3703942740480473
+fav_number_high & text_len_low & text_n_urls_low,human,0.05407427197435213,0.8963684676705049,1.3676451877102154
+fav_number_high & has_description & text_len_low,human,0.05541009885118889,0.8939655172413794,1.3639788566095237
+has_location & text_has_emoji & uploaded_image,human,0.05797488645471547,0.8922697368421052,1.3613914988586335
+has_location & text_has_emoji,human,0.05797488645471547,0.8915365653245686,1.360272853419966
+has_description & has_location & text_has_emoji,human,0.05391397274913171,0.8889867841409692,1.3563824934940683
+favs_per_day_high & text_len_low & uploaded_image,human,0.060967138658829814,0.8804012345679012,1.34328298589094
+favs_per_day_high & text_len_low & text_n_urls_low,human,0.05428800427464601,0.8796536796536797,1.3421423948083007
+favs_per_day_high & text_len_low,human,0.06102057173390329,0.8791377983063895,1.3413552825129693
+favs_per_day_high & has_description & text_len_low,human,0.05541009885118889,0.8743676222596964,1.3340771278811527
+has_location & text_len_low & text_n_urls_low,human,0.08666844776916911,0.8734518039849218,1.3326798069116104
+text_len_low & text_n_urls_low & uploaded_image,human,0.1348650814854395,0.8691460055096418,1.3261101820571457
+fav_number_high & link_default & text_n_urls_low,human,0.05631846112743789,0.8689200329760923,1.32576540169147
+custom_link_colour & text_len_low & text_n_urls_low,human,0.07534063585359338,0.8682266009852216,1.3247073893232044
+custom_sidebar_colour & text_len_low & text_n_urls_low,human,0.08030991183542613,0.8677829099307159,1.3240304222528412
+fav_number_high & sidebar_default & text_n_urls_low,human,0.05012022441891531,0.8637200736648251,1.3178314999704226
+fav_number_high & text_n_urls_low & uploaded_image,human,0.16932941490782794,0.8620783460282916,1.3153266138854947
+desc_len_low & has_description & uploaded_image,human,0.05589099652685012,0.8609053497942385,1.3135369004890898
+fav_number_high & text_n_urls_low,human,0.1695965802831953,0.8608624898291294,1.3134715063714462
+custom_sidebar_colour & fav_number_high & text_n_urls_low,human,0.11947635586427999,0.8596693579392541,1.3116510707511122
+fav_number_high & favs_per_day_high & text_n_urls_low,human,0.13555971146139462,0.8588354773188898,1.3103787671631357
+fav_number_high & has_description & text_n_urls_low,human,0.15821533529254608,0.8582608695652174,1.3095020523327119
+desc_len_low & has_description,human,0.05594442960192359,0.8574938574938575,1.3083317742538354
+fav_number_high & has_location & text_n_urls_low,human,0.12113278119155757,0.8574130105900151,1.3082084210983314
+custom_link_colour & fav_number_high & text_n_urls_low,human,0.11327811915575742,0.8569118835893291,1.3074438204283627
+has_location & text_len_low & uploaded_image,human,0.0990114881111408,0.8539170506912442,1.3028744173884426
+custom_link_colour & text_len_low,human,0.085973817793214,0.8535809018567639,1.3023615341797927
+custom_link_colour & text_len_low & uploaded_image,human,0.08592038471814054,0.8535031847133758,1.3022429562947033
+has_location & text_len_low,human,0.09927865348650815,0.8526847177604406,1.3009941702989278
+custom_link_colour & custom_sidebar_colour & text_len_low,human,0.08212663638792413,0.8515235457063712,1.2992224977902118
+favs_per_day_high & link_default & text_n_urls_low,human,0.06855463531926262,0.8513603185136032,1.298973451898099
+has_description & text_len_low & uploaded_image,human,0.13550627838632112,0.8512923799932863,1.2988697938671412
+sidebar_default & text_len_low & uploaded_image,human,0.062302965535666575,0.8510948905109489,1.2985684718663304
+custom_link_colour & has_description & text_len_low,human,0.0785466203580016,0.8506944444444444,1.2979574863670127
+text_len_low & uploaded_image,human,0.15356665776115416,0.850044365572316,1.2969656205515976
+favs_per_day_high & location_missing & text_n_urls_low,human,0.05268501202244189,0.85,1.2968979292352847
+favs_per_day_high & text_n_urls_low & timezone_missing,human,0.056799358803099116,0.8497202238209433,1.2964710572973221
+has_description & has_location & text_len_low,human,0.09222548757681004,0.8494094488188976,1.2959968885248385
+custom_sidebar_colour & text_len_low & uploaded_image,human,0.09126369222548758,0.8493286921929389,1.2958736731119236
+custom_link_colour & has_location & text_len_low,human,0.062089233235372694,0.8487947406866325,1.2950589900497578
+account_age_days_high & custom_link_colour & text_n_urls_low,human,0.08901950307240182,0.8487009679062659,1.2949159150795506
+fav_number_high & link_default & uploaded_image,human,0.06946299759551162,0.8485639686684073,1.29470688681145
+custom_sidebar_colour & text_len_low,human,0.09131712530056105,0.8485600794438928,1.2947009527794273
+account_age_days_high & text_n_urls_low & uploaded_image,human,0.12081218274111676,0.8471337579617835,1.2925247252775787
+favs_per_day_high & sidebar_default & text_n_urls_low,human,0.06433342238845846,0.8460997891777935,1.290947134718931
+custom_sidebar_colour & has_description & text_len_low,human,0.08367619556505478,0.8460291734197732,1.290839391859698
+favs_per_day_high & text_n_urls_low & uploaded_image,human,0.1652150681271707,0.8459644322845417,1.290740612278265
+fav_number_high & link_default,human,0.06973016297087897,0.845755022683085,1.290421103009452
+link_default & text_len_low & uploaded_image,human,0.06764627304301363,0.8456913827655311,1.2903240036244021
+fav_number_high & location_missing & uploaded_image,human,0.056478760352658294,0.8455999999999999,1.2901845752486547
+account_age_days_high & has_description & text_n_urls_low,human,0.11172855997862677,0.8455317428224828,1.2900804310225638
+fav_number_high & favs_per_day_high & link_default,human,0.05899011488111141,0.844682478959449,1.288784656263337
+account_age_days_high & text_n_urls_low,human,0.12123964734170452,0.8441220238095238,1.2879295349417283
+custom_sidebar_colour & has_location & text_len_low,human,0.0658829815655891,0.8439425051334701,1.287655632119101
+favs_per_day_high & text_n_urls_low,human,0.16574939887790544,0.8438520130576714,1.2875175627241418
+fav_number_high & location_missing,human,0.056585626502805235,0.8438247011952191,1.2874758913148971
+account_age_days_high & has_location & text_n_urls_low,human,0.0986374565856265,0.8436928702010968,1.2872747485580898
+account_age_days_high & custom_sidebar_colour & text_n_urls_low,human,0.09660699973283463,0.8436770881941204,1.2872506689673051
+fav_number_high & has_description & link_default,human,0.06401282393801763,0.8436619718309859,1.2872276049907796
+location_missing & text_len_low & uploaded_image,human,0.054555169650013356,0.8431048720066061,1.2863776030982907
+fav_number_high & link_default & sidebar_default,human,0.05615816190221747,0.842822774659182,1.2859471896092118
+custom_sidebar_colour & favs_per_day_high & text_n_urls_low,human,0.10141597648944697,0.8424323124722592,1.285351437136665
+fav_number_high & sidebar_default & uploaded_image,human,0.06139460325941758,0.8423753665689149,1.2852645512259289
+text_len_low & timezone_missing & uploaded_image,human,0.053112476623029654,0.8416596104995765,1.2841724776210317
+favs_per_day_high & has_description & text_n_urls_low,human,0.15297889393534597,0.8413164854540112,1.283648950372723
+favs_per_day_high & has_location & text_n_urls_low,human,0.11306438685546354,0.8410174880763116,1.2831927514550932
+desc_len_low & text_n_urls_low & uploaded_image,human,0.10339300026716537,0.8405734144222415,1.2825152006287504
+fav_number_high & favs_per_day_high & uploaded_image,human,0.1667111942292279,0.840064620355412,1.2817389018385403
+custom_sidebar_colour & fav_number_high & favs_per_day_high,human,0.11359871760619823,0.8396524486571879,1.2811100258127566
+fav_number_high & favs_per_day_high & has_location,human,0.12043815121560246,0.8394785847299814,1.280844750792565
+fav_number_high & sidebar_default,human,0.06166176863478493,0.8392727272727274,1.280530661251353
+fav_number_high & favs_per_day_high,human,0.16703179267966872,0.8389694041867956,1.2800678623313126
+custom_link_colour & location_missing & text_n_urls_low,human,0.06449372161367886,0.8387769284225156,1.2797741900723447
+custom_link_colour & favs_per_day_high & text_n_urls_low,human,0.0971947635586428,0.8386353158137391,1.2795581228969612
+fav_number_high & uploaded_image,human,0.20908362276248998,0.8386198028289755,1.2795344537701188
+fav_number_high & has_description & sidebar_default,human,0.05631846112743789,0.8378378378378378,1.2783413610904235
+fav_number_high,human,0.2094042212129308,0.837572130797179,1.2779359553129956
+fav_number_high & favs_per_day_high & sidebar_default,human,0.053433075073470476,0.8375209380234505,1.2778578473103601
+favs_per_day_high & has_location & link_default,human,0.05060112209457654,0.8373121131741821,1.2775392302343729
+custom_sidebar_colour & fav_number_high & uploaded_image,human,0.1476890195030724,0.8370684433676558,1.277167448037313
+custom_link_colour & text_n_urls_low & tweet_count_high,human,0.06224953246059311,0.8369252873563219,1.2769490259965404
+custom_sidebar_colour & fav_number_high,human,0.14774245257814586,0.836864406779661,1.2768561367097144
+fav_number_high & has_location & uploaded_image,human,0.15260486240983168,0.8360655737704917,1.2756373074445422
+custom_link_colour & fav_number_high & favs_per_day_high,human,0.1080416777985573,0.8358825961140968,1.2753581270402186
+fav_number_high & favs_per_day_high & has_description,human,0.1565589099652685,0.8357102110667427,1.2750951084391073
+fav_number_high & has_location,human,0.15281859471012557,0.8352803738317757,1.2744392790038874
+custom_link_colour & custom_sidebar_colour & fav_number_high,human,0.13417045150948437,0.8347739361702128,1.2736665755279255
+fav_number_high & has_description & uploaded_image,human,0.19577878706919583,0.834434069687998,1.2731480200726304
+custom_sidebar_colour & location_missing & text_n_urls_low,human,0.06908896606999733,0.8341935483870968,1.272781041746659
+custom_link_colour & fav_number_high & uploaded_image,human,0.13962062516697835,0.833758774728781,1.2721176805029462
+fav_number_high & has_description,human,0.19593908629441625,0.8335985451238918,1.271873208217319
+custom_link_colour & fav_number_high,human,0.13967405824205184,0.833545918367347,1.271792912297807
+custom_sidebar_colour & fav_number_high & has_description,human,0.13962062516697835,0.8319006685768863,1.269282652243309
+fav_number_high & has_description & has_location,human,0.14613946032594174,0.8313069908814589,1.2683768412152703
+custom_sidebar_colour & fav_number_high & has_location,human,0.11306438685546354,0.8301294625343273,1.266580212891728
+favs_per_day_high & link_default & uploaded_image,human,0.08399679401549559,0.8299894403379092,1.2663665723075144
+custom_link_colour & custom_sidebar_colour & text_n_urls_low,human,0.2461661768634785,0.8293429342934293,1.2653801577777215
+custom_link_colour & text_n_urls_low & uploaded_image,human,0.257013091103393,0.8291673849336321,1.2651123111880749
+custom_sidebar_colour & text_n_urls_low & tweet_count_high,human,0.06684477691691157,0.8290258449304174,1.2648963547915182
+custom_link_colour & text_n_urls_low,human,0.25722682340368686,0.8288567493112946,1.264638355075891
+custom_link_colour & fav_number_high & has_description,human,0.13192626235639862,0.8288016112789528,1.2645542275465191
+custom_link_colour & fav_number_high & has_location,human,0.10761421319796954,0.828125,1.2635218795858472
+favs_per_day_high & timezone_missing & uploaded_image,human,0.07010419449639327,0.8277602523659306,1.262965361407826
+custom_sidebar_colour & desc_len_low & uploaded_image,human,0.058829815655890995,0.8265765765765766,1.2611593535488856
+favs_per_day_high & has_description & link_default,human,0.07592839967940156,0.8261627906976745,1.260528014667127
+custom_sidebar_colour & text_n_urls_low & uploaded_image,human,0.2735773443761689,0.8259396676883368,1.2601875819979802
+favs_per_day_high & link_default,human,0.0845311247662303,0.825678496868476,1.259789097415093
+custom_link_colour & has_description & text_n_urls_low,human,0.2385252471279722,0.8255964490475309,1.2596639119455848
+custom_link_colour & has_location & text_n_urls_low,human,0.19273310179000802,0.8255893797207599,1.2596531258335253
+favs_per_day_high & has_location & uploaded_image,human,0.14288004274646005,0.8255634455078726,1.259613556390008
+custom_sidebar_colour & text_n_urls_low,human,0.27379107667646274,0.8252536640360768,1.2591409035084933
+account_age_days_high & fav_number_high & uploaded_image,human,0.05263157894736842,0.8249581239530988,1.2586899796007047
+custom_sidebar_colour & favs_per_day_high & uploaded_image,human,0.12620892332353728,0.8247206703910616,1.2583276819149452
+custom_sidebar_colour & favs_per_day_high,human,0.12626235639861075,0.8244940683879972,1.2579819411284339
+favs_per_day_high & has_location,human,0.14320064119690087,0.8243617348508151,1.2577800316103869
+favs_per_day_high & uploaded_image,human,0.20502270905690623,0.8242749731471536,1.2576476538764862
+account_age_days_high & fav_number_high,human,0.05263157894736842,0.8235785953177256,1.2565851468588973
+favs_per_day_high & timezone_missing,human,0.0705850921720545,0.82356608478803,1.256566058764714
+favs_per_day_high & sidebar_default & uploaded_image,human,0.07881378573336896,0.8235622557230599,1.2565602165218543
+custom_sidebar_colour & desc_len_low,human,0.059043547956184876,0.8227848101265822,1.2553740193640133
+favs_per_day_high & link_default & sidebar_default,human,0.07379107667646273,0.8225134008338296,1.2549599133054885
+account_age_days_high & fav_number_high & has_description,human,0.0504942559444296,0.8224543080939948,1.254869751832636
+favs_per_day_high,human,0.2056104728827144,0.8223979482795469,1.2547837601542249
+custom_link_colour & custom_sidebar_colour & favs_per_day_high,human,0.11552230830884318,0.8223659186002282,1.2547348904780102
+custom_sidebar_colour & has_description & text_n_urls_low,human,0.2545017365749399,0.8223411602209945,1.2546971150771167
+custom_sidebar_colour & has_location & text_n_urls_low,human,0.2047021106064654,0.8222794591113972,1.2546029738520952
+favs_per_day_high & has_description & timezone_missing,human,0.06315789473684211,0.8214037526059764,1.2532668539068033
+favs_per_day_high & location_missing & uploaded_image,human,0.06214266631044617,0.8213276836158193,1.2531507907117283
+custom_link_colour & desc_len_low & uploaded_image,human,0.055463531926262355,0.8212025316455697,1.2529598385575442
+favs_per_day_high & has_description & uploaded_image,human,0.19016831418648142,0.8211813567143516,1.2529275306464285
+custom_link_colour & custom_sidebar_colour & desc_len_low,human,0.05316590969810313,0.820957095709571,1.2525853616667717
+has_description & text_n_urls_low & uploaded_image,human,0.4052898744322736,0.8204434829637642,1.2518017107179886
+custom_link_colour & favs_per_day_high & uploaded_image,human,0.12102591504141064,0.82035494386092,1.2516666210954768
+custom_sidebar_colour & favs_per_day_high & has_location,human,0.09585893668180603,0.8203017832647462,1.2515855106636007
+custom_link_colour & favs_per_day_high,human,0.1210793481164841,0.820123054650742,1.2513128132878393
+favs_per_day_high & has_description & location_missing,human,0.05407427197435213,0.8200972447325772,1.2512734334885198
+custom_sidebar_colour & favs_per_day_high & has_description,human,0.11952978893935345,0.8200146627565982,1.2511474330254146
+has_location & text_n_urls_low & uploaded_image,human,0.3071333155223083,0.8199714693295294,1.2510815301240945
+favs_per_day_high & has_description,human,0.1903820464867753,0.8198343304187758,1.2508722887483605
+favs_per_day_high & has_description & has_location,human,0.13630777451242318,0.8197300771208226,1.250713222999853
+favs_per_day_high & has_description & sidebar_default,human,0.07085225754742186,0.819530284301607,1.250408386654539
+has_description & text_len_low & text_n_urls_low,human,0.11958322201442693,0.8194800439399488,1.2503317318063054
+has_location & text_n_urls_low & tweet_count_high,human,0.06492118621426664,0.8192852326365476,1.250034496069867
+favs_per_day_high & sidebar_default,human,0.07934811648410366,0.8190843905129619,1.249728058735536
+has_location & text_n_urls_low,human,0.3078813785733369,0.8183496662405909,1.2486070441621278
+text_n_urls_low & uploaded_image,human,0.4629975955116217,0.818147483712586,1.2482985616893079
+favs_per_day_high & location_missing,human,0.062409831685813516,0.8179271708683473,1.2479624166640406
+custom_link_colour & favs_per_day_high & has_location,human,0.09259951910232433,0.8174528301886792,1.2472386855520246
+custom_link_colour & desc_len_low,human,0.055677264226556236,0.8172549019607843,1.2469366941297961
+has_description & has_location & text_n_urls_low,human,0.28800427464600586,0.8164192668888215,1.2456617136657668
+custom_link_colour & favs_per_day_high & has_description,human,0.11445364680737377,0.8156892612338158,1.2445478985806997
+desc_len_low & has_location & uploaded_image,human,0.05674592572802565,0.8150422102839601,1.2435606526548437
+location_missing & text_n_urls_low & uploaded_image,human,0.15586427998931338,0.8145769338173694,1.2428507513771456
+text_n_urls_low & timezone_missing & tweets_per_day_low,human,0.053326208923323536,0.813365933170334,1.2410030522813307
+text_n_urls_low & tweets_per_day_low & uploaded_image,human,0.11199572535399412,0.8127181077937184,1.2400146247643438
+fav_number_high & tweet_count_high,human,0.059951910232433875,0.8118668596237337,1.2387158224244397
+fav_number_high & tweet_count_high & uploaded_image,human,0.059951910232433875,0.8118668596237337,1.2387158224244397
+fav_number_high & has_description & tweet_count_high,human,0.05808175260486241,0.8111940298507463,1.2376892441428924
+has_location & sidebar_default & text_n_urls_low,human,0.10317926796687149,0.8106633081444165,1.2368794889876695
+desc_len_low & has_location,human,0.05711995725353994,0.8092354277062831,1.2347008828895394
+has_location & text_n_urls_low & timezone_missing,human,0.08121827411167512,0.808940926024481,1.2342515433350858
+sidebar_default & text_n_urls_low & uploaded_image,human,0.18942025113545286,0.8071493624772313,1.231518043270943
+has_description & text_len_low,human,0.13588030991183542,0.8070453824182798,1.2313593944201946
+has_location & link_default & text_n_urls_low,human,0.11514827678332888,0.8065119760479043,1.230545543105864
+text_n_urls_low & timezone_missing & uploaded_image,human,0.15500935078813785,0.8065054211843203,1.2305355419423247
+link_default & text_n_urls_low & uploaded_image,human,0.20598450440822869,0.8048016701461378,1.2279360228913232
+has_description & text_n_urls_low,human,0.4061448036334491,0.8045088907705334,1.2274893111666831
+text_n_urls_low & tweet_count_high & uploaded_image,human,0.08805770772107935,0.8039024390243903,1.2265640099740311
+link_default & text_n_urls_low & tweets_per_day_low,human,0.06358535933742987,0.8035111411208643,1.2259669823966228
+desc_missing & text_n_urls_low & uploaded_image,human,0.057707721079348115,0.8023774145616641,1.2242371851884515
+sidebar_default & text_n_urls_low & tweets_per_day_low,human,0.060165642532727756,0.8008534850640113,1.2219120310592673
+text_n_urls_low & tweets_per_day_low,human,0.11365215068127171,0.8008283132530121,1.221873624859785
+custom_sidebar_colour & text_n_urls_low & tweets_per_day_low,human,0.05348650814854395,0.8008,1.2218304255666068
+has_description & text_n_urls_low & tweets_per_day_low,human,0.0888592038471814,0.7999037999037999,1.2204630372737335
+custom_link_colour & text_n_urls_low & tweets_per_day_low,human,0.050066791343841836,0.7974468085106383,1.2167142525090981
+has_location & text_n_urls_low & tweets_per_day_low,human,0.06705850921720545,0.793299620733249,1.210386629873044
+text_n_urls_low & tweet_count_low & tweets_per_day_low,human,0.08394336094042212,0.7847152847152847,1.1972889738665053
+text_n_urls_low & tweet_count_low & uploaded_image,human,0.11082019770237778,0.7823462844209733,1.1936744426005639
+text_n_urls_low & timezone_missing & tweet_count_low,human,0.06796687149345444,0.7818070067609095,1.1928516330939527
+desc_len_low & uploaded_image,human,0.1375901683141865,0.778415961305925,1.1876777038839383
+location_missing & text_n_urls_low & tweet_count_low,human,0.05225754742185413,0.7774244833068362,1.1861649441617024
+has_description & location_missing & text_n_urls_low,human,0.11814052898744323,0.7768798313422347,1.1853339347440015
+has_description & link_default & text_n_urls_low,human,0.16761955650547689,0.7762929967829745,1.184438564714933
+has_description & sidebar_default & text_n_urls_low,human,0.15164306705850922,0.776258205689278,1.1843854817768495
+link_default & text_n_urls_low & tweet_count_low,human,0.07443227357734437,0.7760445682451252,1.1840595218251688
+text_len_high & text_n_urls_low & uploaded_image,human,0.09799625968474486,0.7754756871035942,1.1831915444434833
+sidebar_default & text_n_urls_low & tweet_count_low,human,0.0720277851990382,0.7729357798165137,1.179316249736349
+location_missing & tweets_per_day_low & uploaded_image,human,0.061074004808976755,0.7717758271438218,1.177546437713731
+has_description & text_n_urls_low & timezone_missing,human,0.12385786802030457,0.7711244178310047,1.176552541962111
+has_description & text_len_high & text_n_urls_low,human,0.08768367619556505,0.7704225352112676,1.175481635943166
+text_n_urls_low & tweet_count_low,human,0.11290408763024312,0.7689228529839884,1.173193477384261
+has_description & text_n_urls_low & tweet_count_low,human,0.08602725086828747,0.7684964200477327,1.1725428420995694
+text_len_high & text_n_urls_low,human,0.09906492118621427,0.7670666115018617,1.1703612941674013
+has_location & text_len_high & text_n_urls_low,human,0.0700507614213198,0.7666666666666667,1.169751073427904
+custom_link_colour & desc_len_high & text_n_urls_low,human,0.05979161100721347,0.7659137577002053,1.1686023133343668
+account_age_days_low & favs_per_day_high & uploaded_image,human,0.05690622495324606,0.7656362329259525,1.1681788765049081
+custom_link_colour & text_len_high & text_n_urls_low,human,0.05268501202244189,0.764934057408844,1.1671075235942048
+custom_sidebar_colour & text_len_high & text_n_urls_low,human,0.056371894202511354,0.7644927536231884,1.1664341989285807
+desc_len_high & has_location & text_n_urls_low,human,0.08255410098851189,0.7618343195266272,1.162378060487594
+has_location & text_n_urls_low & tweet_count_low,human,0.06064654020838899,0.761744966442953,1.1622417289238436
+account_age_days_low & favs_per_day_high,human,0.057226823403686886,0.7611940298507462,1.1614011306584637
+custom_sidebar_colour & desc_len_high & text_n_urls_low,human,0.06422655623831151,0.7583596214511041,1.1570764972654015
+sidebar_default & timezone_missing & tweets_per_day_low,human,0.05797488645471547,0.7576815642458101,1.1560419431648734
+account_age_days_low & favs_per_day_high & has_description,human,0.0514026182206786,0.7574803149606298,1.1557348845987436
+link_default & timezone_missing & tweets_per_day_low,human,0.05925728025647876,0.7569965870307167,1.1549968307744876
+desc_len_low & timezone_missing & uploaded_image,human,0.06647074539139727,0.7566909975669099,1.1545305739005969
+has_description & text_n_urls_low & tweet_count_high,human,0.07988244723483837,0.7561962569549824,1.1537757173416352
+timezone_missing & tweets_per_day_low & uploaded_image,human,0.07443227357734437,0.7558328811720022,1.1532212922822453
+desc_len_low & location_missing & uploaded_image,human,0.08084424258616084,0.7546134663341646,1.1513607551315743
+has_description & link_default & text_len_low,human,0.057333689553833826,0.7540407589599438,1.1504869398284159
+desc_len_high & text_n_urls_low & uploaded_image,human,0.09735506278386322,0.7538270583367811,1.1501608834805852
+desc_len_high & text_n_urls_low,human,0.0977290943093775,0.7532948929159802,1.1493489255602942
+desc_len_high & has_description & text_n_urls_low,human,0.0977290943093775,0.7532948929159802,1.1493489255602942
+desc_len_low & link_default & uploaded_image,human,0.08212663638792413,0.7519569471624266,1.1473075384106322
+has_description & sidebar_default & text_len_low,human,0.052204114346780656,0.7515384615384615,1.146669028835179
+location_missing & tweets_per_day_low,human,0.06321132781191557,0.7487341772151899,1.1423903576212522
+custom_link_colour & custom_sidebar_colour & location_missing,human,0.07881378573336896,0.7460799190692969,1.1383405906882351
+desc_len_low & sidebar_default & uploaded_image,human,0.07876035265829548,0.7459514170040485,1.1381445270855022
+location_missing & tweet_count_low & tweets_per_day_low,human,0.05193694897141331,0.7442572741194488,1.1355596677927184
+custom_link_colour & location_missing & uploaded_image,human,0.08266096713865884,0.7430355427473584,1.133695596161488
+location_missing & tweet_count_low & uploaded_image,human,0.06903553299492386,0.7429557216791259,1.1335738081872528
+text_n_urls_low & tweets_per_day_high & uploaded_image,human,0.06903553299492386,0.742528735632184,1.1329223289871453
+custom_link_colour & has_description & location_missing,human,0.07047822602190756,0.7401795735129069,1.1293380660601706
+custom_link_colour & location_missing,human,0.08276783328880577,0.7400860009555661,1.129195296582702
+custom_sidebar_colour & location_missing & uploaded_image,human,0.08912636922254875,0.7383798140770252,1.1265920610183864
+timezone_missing & tweets_per_day_low,human,0.07667646273043013,0.736652977412731,1.1239573187900913
+custom_sidebar_colour & location_missing,human,0.0892332353726957,0.7360070515645659,1.1229717895019447
+sidebar_default & tweets_per_day_low & uploaded_image,human,0.08367619556505478,0.7355565993424144,1.1222845064970883
+account_age_days_high & uploaded_image,human,0.1817258883248731,0.7328162034044388,1.1181033137709173
+custom_sidebar_colour & has_description & location_missing,human,0.07608869890462196,0.7325102880658435,1.1176365596895697
+account_age_days_high & custom_link_colour & uploaded_image,human,0.13246059310713332,0.732132309509746,1.1170598542699246
+account_age_days_high & custom_link_colour,human,0.13256745925728025,0.7316425833087585,1.1163126485099801
+account_age_days_high & custom_link_colour & custom_sidebar_colour,human,0.12989580550360674,0.7313477737665464,1.1158628392337286
+desc_missing & uploaded_image,human,0.08169917178733636,0.7305303392259914,1.1146156284538098
+desc_len_low & desc_missing & uploaded_image,human,0.08169917178733636,0.7305303392259914,1.1146156284538098
+account_age_days_high,human,0.1824205183008282,0.7296430861295148,1.1132618911555414
+location_missing & timezone_missing & tweet_count_low,human,0.051082019770237776,0.7292143401983219,1.1126077267904446
+account_age_days_high & has_description & uploaded_image,human,0.16799358803099118,0.7289589612798516,1.112218079272169
+desc_len_low & tweet_count_low,human,0.05215068127170719,0.7289021657953697,1.1121314228648578
+sidebar_default & timezone_missing & tweet_count_low,human,0.07715736040609138,0.7281896116994453,1.1110442347101843
+link_default & tweets_per_day_low & uploaded_image,human,0.09035532994923857,0.7279380111924235,1.110660352149536
+account_age_days_high & has_description,human,0.16820732033128508,0.7275248440027734,1.1100299572404944
+account_age_days_high & has_location & uploaded_image,human,0.15217739780924391,0.7274584929757343,1.1099287213468831
+account_age_days_high & custom_link_colour & has_description,human,0.12487309644670051,0.7271313005600498,1.1094295035041035
+timezone_missing & tweet_count_low & uploaded_image,human,0.09388191290408764,0.726934215970211,1.1091287992729904
+has_location & sidebar_default & timezone_missing,human,0.07502003740315255,0.7263321262286601,1.1082101534623654
+link_default & timezone_missing & tweet_count_low,human,0.07785199038204649,0.726321036889332,1.108193233766823
+account_age_days_high & has_description & tweet_count_high,human,0.05145605129575207,0.7262443438914027,1.108076218484233
+has_description & timezone_missing & tweets_per_day_low,human,0.053433075073470476,0.7262164124909223,1.1080336018072405
+account_age_days_high & tweet_count_high & uploaded_image,human,0.053112476623029654,0.7260774287801315,1.1078215457052145
+account_age_days_high & has_location,human,0.15244456318461128,0.7257695242940728,1.1073517566577185
+account_age_days_high & custom_sidebar_colour & uploaded_image,human,0.14539139727491318,0.7254065582511331,1.1067979567642228
+account_age_days_high & custom_link_colour & has_location,human,0.11365215068127171,0.7247018739352641,1.1057227760230286
+custom_link_colour & custom_sidebar_colour & uploaded_image,human,0.3483836494790275,0.7246054678817514,1.1055756833040093
+account_age_days_low & has_description & text_n_urls_low,human,0.07277584825006679,0.7244680851063829,1.105366069848847
+account_age_days_high & custom_sidebar_colour,human,0.14549826342506011,0.7243947858472998,1.1052542326049417
+timezone_missing & tweet_count_low & tweets_per_day_low,human,0.0667913438418381,0.7242178447276942,1.1049842625206912
+link_default & sidebar_default & tweets_per_day_low,human,0.08228693561314454,0.7240244475787494,1.1046891844477658
+custom_link_colour & custom_sidebar_colour,human,0.3487576810045418,0.7240155296727676,1.1046755778432942
+account_age_days_high & tweet_count_high,human,0.05316590969810313,0.7231104651162791,1.1032946644913715
+custom_link_colour & uploaded_image,human,0.36441357200106866,0.7229171083315666,1.102999648004669
+account_age_days_high & has_description & has_location,human,0.14437616884851723,0.7222667735899492,1.1020073917932414
+custom_link_colour,human,0.36478760352658296,0.7222045911350894,1.1019125161497798
+sidebar_default & timezone_missing & uploaded_image,human,0.15410098851188886,0.7220831246870306,1.1017271872262986
+text_n_urls_low,human,0.46652417846647076,0.7219879268998594,1.101581938034475
+custom_link_colour & custom_sidebar_colour & has_description,human,0.324926529521774,0.7210956954820349,1.1002206050013277
+has_description & location_missing & uploaded_image,human,0.15036067325674593,0.720245712823138,1.098923733530493
+custom_link_colour & has_description & uploaded_image,human,0.33930002671653753,0.719709849257622,1.0981061331205282
+custom_link_colour & has_description,human,0.3395137590168314,0.7194293478260869,1.097678154619698
+account_age_days_high & custom_sidebar_colour & has_description,human,0.13678867218808444,0.7193031750491712,1.0974856449572183
+account_age_days_high & custom_sidebar_colour & has_location,human,0.12487309644670051,0.7188557366964011,1.0968029604005503
+link_default & timezone_missing & uploaded_image,human,0.1576810045418114,0.7178302116273413,1.095238252943559
+custom_link_colour & custom_sidebar_colour & has_location,human,0.26994389527117285,0.7178175618073317,1.0952189523254698
+sidebar_default & tweets_per_day_low,human,0.08586695164306705,0.717731129968736,1.0950870778872408
+location_missing & sidebar_default & tweet_count_low,human,0.05407427197435213,0.7177304964539007,1.0950861112942079
+custom_link_colour & has_location & uploaded_image,human,0.28175260486240983,0.7172198041349293,1.0943069162225014
+custom_link_colour & has_location,human,0.2820197702377772,0.7171195652173914,1.0941539754641676
+sidebar_default & tweet_count_low & uploaded_image,human,0.09799625968474486,0.7169663799843629,1.0939202512153392
+location_missing & uploaded_image,human,0.20518300828212663,0.7168191151764046,1.0936955601277036
+custom_sidebar_colour & uploaded_image,human,0.39006144803633447,0.7167403043691704,1.093575313571582
+link_default & location_missing & tweet_count_low,human,0.05498263425060112,0.7165738161559889,1.093321292137562
+has_location & link_default & timezone_missing,human,0.07705049425594443,0.7163437655240934,1.0929702895632976
+account_age_days_low & text_n_urls_low & uploaded_image,human,0.0906759283996794,0.7163360067539045,1.0929584515244843
+custom_sidebar_colour,human,0.39043547956184876,0.7159514011365863,1.0923716347848698
+desc_missing & link_default & uploaded_image,human,0.056585626502805235,0.7145748987854251,1.0902714194333305
+custom_link_colour & has_location & tweet_count_high,human,0.0696767298958055,0.7145205479452056,1.0901884929719976
+custom_link_colour & has_description & has_location,human,0.26903553299492383,0.7141843971631205,1.0896756067917661
+location_missing & tweet_count_low,human,0.07165375367352392,0.7129186602870814,1.087744393222952
+custom_sidebar_colour & has_description & uploaded_image,human,0.3632914774245258,0.7127581507495545,1.0874994938266682
+uploaded_image,human,0.6501202244189153,0.71239533930558,1.0869459298144408
+custom_sidebar_colour & has_description,human,0.36350520972481964,0.7122814364987958,1.0867721412094378
+link_default & tweets_per_day_low,human,0.09254608602725087,0.7121710526315789,1.086603721669656
+custom_link_colour & custom_sidebar_colour & tweet_count_high,human,0.083248730964467,0.7120658135283363,1.0864431518166326
+has_description & sidebar_default & tweets_per_day_low,human,0.060860272508682874,0.7114303560274827,1.0854735947378396
+link_default & tweet_count_low & uploaded_image,human,0.10211060646540208,0.7109375,1.084721613606718
+custom_sidebar_colour & has_location & uploaded_image,human,0.30093507881378573,0.7105727983850618,1.0841651656429507
+custom_link_colour & has_description & tweet_count_high,human,0.08223350253807106,0.7105263157894736,1.0840942442524049
+desc_missing & sidebar_default & uploaded_image,human,0.05492920117552765,0.710435383552177,1.0839555032756394
+has_location & uploaded_image,human,0.44493721613678866,0.7103736563726326,1.0838613222740763
+custom_sidebar_colour & has_location,human,0.3012022441891531,0.7102179664860778,1.083623776519399
+has_location & timezone_missing & uploaded_image,human,0.1178199305370024,0.7101449275362319,1.0835123364455064
+has_location & sidebar_default & uploaded_image,human,0.14400213732300293,0.7099578503688092,1.0832269011619327
+has_description & uploaded_image,human,0.5684210526315789,0.7098625383691445,1.0830814777089957
+has_location,human,0.44611274378840504,0.7087436332767403,1.0813742945356428
+sidebar_default & tweet_count_low & tweets_per_day_low,human,0.07117285599786267,0.7077577045696068,1.0798700017136957
+custom_link_colour & tweet_count_high & uploaded_image,human,0.0855997862676997,0.7075971731448764,1.0796250689227427
+desc_missing & location_missing & uploaded_image,human,0.05482233502538071,0.7075862068965517,1.0796083370348089
+link_default & sidebar_default & uploaded_image,human,0.24402885386053969,0.7071848869619077,1.0789960182204552
+timezone_missing & uploaded_image,human,0.21613678867218808,0.7071678321678322,1.0789699966591375
+custom_sidebar_colour & has_description & has_location,human,0.2874165108201977,0.7071118706454581,1.0788846126797447
+custom_link_colour & tweet_count_high,human,0.08565321934277317,0.7071018967798853,1.078869394931971
+has_location & timezone_missing,human,0.118567993588031,0.7064629099013053,1.0778944528618075
+account_age_days_high & tweets_per_day_low & uploaded_image,human,0.053433075073470476,0.7062146892655368,1.0775157271811937
+has_description & has_location & uploaded_image,human,0.41806037937483304,0.7062009206607095,1.077494719563442
+has_location & link_default & sidebar_default,human,0.1328346246326476,0.7060494177790401,1.0772635621828417
+has_description & timezone_missing & uploaded_image,human,0.171039273310179,0.7059991177767976,1.0771868163372549
+sidebar_default & uploaded_image,human,0.2600587763825808,0.7059762111981432,1.0771518663438164
+has_location & sidebar_default,human,0.14491049959925192,0.7056986729117876,1.0767284088981008
+timezone_missing & tweet_count_low,human,0.09676729895805504,0.7052180685358255,1.0759951208746106
+has_description & sidebar_default & uploaded_image,human,0.20512957520705316,0.7047916284193134,1.075344474634555
+has_description & has_location,human,0.41891530857600856,0.7047191011235955,1.075233815223226
+custom_sidebar_colour & has_location & tweet_count_high,human,0.07534063585359338,0.7042957042957043,1.0745878123181238
+account_age_days_high & tweets_per_day_low,human,0.05386053967405824,0.7039106145251397,1.0740002568757534
+has_description & timezone_missing & tweet_count_low,human,0.06866150146940957,0.7037239868565169,1.0737155074204887
+location_missing & timezone_missing & uploaded_image,human,0.09831685813518568,0.7036328871892925,1.0735765109854565
+tweets_per_day_low & uploaded_image,human,0.17141330483569328,0.7033545275158956,1.0731518002983846
+has_description & link_default & tweets_per_day_low,human,0.0667913438418381,0.702247191011236,1.0714622680397263
+link_default & tweet_count_low & tweets_per_day_low,human,0.0752872027785199,0.7013439522150323,1.0700841403639598
+location_missing & sidebar_default & uploaded_image,human,0.11605663905957787,0.7010974822466107,1.0697080857855308
+has_description,human,0.5698637456585627,0.7006766966690756,1.0690660670276986
+custom_sidebar_colour & has_description & tweet_count_high,human,0.08880577077210794,0.7003792667509482,1.0686122596807432
+link_default & location_missing & uploaded_image,human,0.1225220411434678,0.7001526717557253,1.068266529586532
+has_description & has_location & timezone_missing,human,0.10729361474752871,0.6996515679442509,1.067501964297787
+has_description & has_location & sidebar_default,human,0.13149879775581086,0.6995451961341672,1.067339666203403
+link_default & uploaded_image,human,0.28570665241784665,0.6994113799869195,1.0671354945748572
+has_location & link_default & uploaded_image,human,0.16318461127437883,0.6988558352402745,1.0662878653613026
+custom_sidebar_colour & tweet_count_high & uploaded_image,human,0.09243921987710393,0.6987075928917609,1.0660616827791705
+custom_sidebar_colour & tweet_count_high,human,0.0924926529521774,0.6982654296087132,1.0653870467248547
+has_description & sidebar_default & tweet_count_low,human,0.07106598984771574,0.6981627296587928,1.0652303510161674
+link_default & sidebar_default & tweet_count_low,human,0.09788939353459791,0.6976389946686976,1.0644312559289644
+has_description & link_default & uploaded_image,human,0.2291210259150414,0.6957650494888853,1.061572061078142
+tweets_per_day_low,human,0.17381779321399946,0.6952340243641804,1.0607618429786105
+has_location & link_default,human,0.16409297355062785,0.6947963800904978,1.0600941018582803
+sidebar_default & tweet_count_low,human,0.1008282126636388,0.6947717231222387,1.0600564811864257
+tweet_count_low & tweets_per_day_low & uploaded_image,human,0.12465936414640663,0.6914641375222289,1.0550098918741655
+has_description & link_default & tweet_count_low,human,0.07469943895271172,0.6903703703703703,1.053341063222035
+link_default & tweet_count_low,human,0.10494255944429602,0.6903339191564147,1.0532854473350972
+has_description & location_missing,human,0.1509484370825541,0.689697265625,1.0523140653980005
+has_description & has_location & link_default,human,0.1498797755810847,0.6883435582822086,1.0502486298101692
+has_description & text_n_urls_low & tweets_per_day_high,human,0.05915041410633182,0.6862988220706757,1.0471288484471464
+has_description & tweets_per_day_low & uploaded_image,human,0.13892599519102325,0.6858348720654182,1.0464209710341026
+has_description & sidebar_default & timezone_missing,human,0.11584290675928399,0.6849921011058452,1.0451351029019968
+has_description & tweets_per_day_low,human,0.13913972749131712,0.6832852269745473,1.042530818753355
+tweet_count_low & tweets_per_day_low,human,0.12695698637456584,0.6817790530846484,1.0402327554605573
+has_description & sidebar_default,human,0.20635853593374298,0.6811287477954144,1.0392405441864652
+custom_link_colour & custom_sidebar_colour & timezone_missing,human,0.05476890195030724,0.681063122923588,1.0391404162330793
+custom_link_colour & custom_sidebar_colour & tweets_per_day_low,human,0.07769169115682607,0.6810304449648712,1.0390905574366187
+has_description & link_default & timezone_missing,human,0.11915575741383917,0.6809160305343512,1.0389159882154235
+has_description & link_default & sidebar_default,human,0.19177130643868553,0.6808954657560234,1.0388846112525665
+has_description & timezone_missing,human,0.17205450173657494,0.6800422386483632,1.037582789524223
+tweet_count_low & uploaded_image,human,0.1639861074004809,0.6800354531353866,1.0375724364445427
+custom_link_colour & timezone_missing & uploaded_image,human,0.058455784130376706,0.6799254195152269,1.0374045512985057
+has_location & tweet_count_high & uploaded_image,human,0.0939353459791611,0.679814385150812,1.0372351392546428
+has_description & has_location & tweet_count_high,human,0.09110339300026717,0.6795536070147469,1.0368372538138748
+custom_link_colour & timezone_missing,human,0.058722949505744054,0.6792336217552534,1.036349032378083
+has_location & tweet_count_high,human,0.09409564520438152,0.6791361357500965,1.036200291909592
+custom_link_colour & has_description & timezone_missing,human,0.05289874432273577,0.6780821917808219,1.034592223966907
+custom_link_colour & tweets_per_day_low & uploaded_image,human,0.08105797488645472,0.6778373547810546,1.0342186609104385
+custom_link_colour & tweets_per_day_low,human,0.0812717071867486,0.6769025367156208,1.0327923507771763
+custom_sidebar_colour & tweets_per_day_low & uploaded_image,human,0.08773710927063852,0.6751644736842104,1.0301404797815097
+has_description & link_default,human,0.23034998664173123,0.6747534825481296,1.0295134050129013
+custom_sidebar_colour & tweets_per_day_low,human,0.0879508415709324,0.6745901639344262,1.0292642196341746
+custom_sidebar_colour & timezone_missing & uploaded_image,human,0.06203580016029923,0.6726535341830824,1.026309383029218
+account_age_days_high & desc_len_high & uploaded_image,human,0.06123430403419717,0.6721407624633431,1.0255270152862765
+account_age_days_high & desc_len_high,human,0.06134117018434411,0.6721311475409836,1.0255123452005144
+account_age_days_high & desc_len_high & has_description,human,0.06134117018434411,0.6721311475409836,1.0255123452005144
+custom_sidebar_colour & timezone_missing,human,0.062302965535666575,0.6720461095100864,1.0253825973814827
+account_age_days_high & desc_len_high & has_location,human,0.056371894202511354,0.6719745222929936,1.0252733723066505
+has_location & tweets_per_day_low & uploaded_image,human,0.11033930002671653,0.6704545454545454,1.0229542489957457
+custom_sidebar_colour & has_description & timezone_missing,human,0.056211594977290946,0.6700636942675159,1.022357903001513
+tweet_count_low,human,0.16703179267966872,0.6680914725368668,1.019348761497429
+has_location & tweets_per_day_low,human,0.1106064654020839,0.6679574056147145,1.0191442072459957
+custom_link_colour & has_description & tweets_per_day_low,human,0.07234838364947903,0.6666666666666667,1.0171748464590469
+has_description & tweet_count_low & tweets_per_day_low,human,0.09671386588298156,0.6651966188901138,1.0149319030269428
+custom_sidebar_colour & has_description & tweets_per_day_low,human,0.07827945498263425,0.6628959276018099,1.0114215950650476
+has_description & tweet_count_low & uploaded_image,human,0.12882714400213732,0.6627267729521715,1.011163505282887
+has_description & tweet_count_low,human,0.12920117552765162,0.6593946004908644,1.0060794022653292
+has_description & has_location & tweets_per_day_low,human,0.09933208656158161,0.6587526576895818,1.005099950159834
+custom_link_colour & has_location & tweets_per_day_low,human,0.06150146940956452,0.6580903373356204,1.004089406753313
+has_description & tweet_count_high & uploaded_image,human,0.11295752070531659,0.6571339757538078,1.0026302263356037
